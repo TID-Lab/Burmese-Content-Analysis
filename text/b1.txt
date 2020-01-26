@@ -1,4 +1,4 @@
-https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/tree/master/znlp
+https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt
 တပ်မတော်ဒုတိယကာကွယ်ရေးဦးစီးချုပ်
 အမျိုးသားဒီမိုကရေစီအဖွဲ့ချုပ်
 အထူးစုံစမ်းစစ်ဆေးရေးဦးစီးဌာန

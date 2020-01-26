@@ -8,20 +8,14 @@ class WordListMaker():
     
     def createWordList(self, fileName):
 
-        # with open(fileName, "r") as f:
+        # with open(fileName, "r") as f:    #only uncomment this block when adding new words from new file.
         #     text = f.readlines()
         #     src = text[0]
         #     words = text[1:]
-        # for i,word in enumerate(words):
-            # words[i] = word.split(",")[0]
-        # with open(fileName, "w") as f:
-            # f.write(src)
-            # for word in words:
-                # f.write(word+"\n")
         
         with open("word_list.json", "r+") as word_list_f:
             word_list_by_src = json.load(word_list_f)
-            # word_list_by_src.append({"source": src, "words":words})
+            # word_list_by_src.append({"source": src, "words":words})    #only uncomment when adding new words from new file
             for i, word_src_obj in enumerate(word_list_by_src):
                 print("Source: {}".format(word_src_obj["source"]))
                 print("Word count before: {}".format(len(word_src_obj["words"])))
@@ -34,7 +28,7 @@ class WordListMaker():
                 all_words_f.seek(0)
                 json.dump(new_words_arr, all_words_f, indent=4)
                 all_words_f.truncate()
-            word_list_f.seek(0)        # <--- should reset file position to the beginning.
+            word_list_f.seek(0)        
             json.dump(word_list_by_src, word_list_f, indent=4)
             word_list_f.truncate()     
 
@@ -50,4 +44,4 @@ class WordListMaker():
 
 if __name__ == "__main__":
     wordListMaker = WordListMaker()
-    wordListMaker.createWordList("b6.txt")
+    wordListMaker.createWordList("b7.txt")
