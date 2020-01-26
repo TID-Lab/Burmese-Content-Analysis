@@ -14,6 +14,6 @@ File: text/all_words.json
 Notes: Contains all words without repetitions
 JSON:
 [
-Unicode format
+    Unicode format
 ]
 
