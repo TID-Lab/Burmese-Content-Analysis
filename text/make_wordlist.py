@@ -8,8 +8,6 @@ class WordListMaker():
     
     def createWordList(self, fileName):
 
-        # formatting raw words
-        #
         # with open(fileName, "r") as f:
         #     text = f.readlines()
         #     src = text[0]
@@ -25,6 +23,7 @@ class WordListMaker():
             word_list_by_src = json.load(word_list_f)
             # word_list_by_src.append({"source": src, "words":words})
             for i, word_src_obj in enumerate(word_list_by_src):
+                print("Source: {}".format(word_src_obj["source"]))
                 print("Word count before: {}".format(len(word_src_obj["words"])))
                 words = set(word_src_obj["words"])
                 print("Word count after: {}".format(len(words)))
@@ -41,12 +40,6 @@ class WordListMaker():
 
 
 
-
-
-
-        # word_list.append({"source": src, "words":words})
-        # json.dump(word_list, open("word-list.json", "w"))
-
         
             
 
@@ -57,4 +50,4 @@ class WordListMaker():
 
 if __name__ == "__main__":
     wordListMaker = WordListMaker()
-    wordListMaker.createWordList("b3.txt")
+    wordListMaker.createWordList("b6.txt")

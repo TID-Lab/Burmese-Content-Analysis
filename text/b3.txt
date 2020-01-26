@@ -1,4 +1,4 @@
-https://github.com/trhura/mymr-lang-resources/blob/master/words/words
+https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt
 က
 ကကတိုး
 ကကတစ်
