@@ -1,0 +1,414 @@
+Total unique words : 74975
+Unique words by source:
+	https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt - 72509
+	https://github.com/trhura/mymr-lang-resources/blob/master/words/words - 28854
+	https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt - 28931
+	https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt - 32886
+	https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt - 267
+	https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt - 32885
+	https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt - 267
+
+
+
+Max used words
+
+Word   : မည်သည် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ၍ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျွန်တော် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်စုံတစ်ခု 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နည်းတူ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အနက် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လျှင် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်ယောက်ယောက် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အကုန် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ငါ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်စုံတစ်ယောက် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်ခုခု 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မင်း 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ထို 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သို့မဟုတ် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အမြဲတမ်း 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အချို့ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အပေါ် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျုပ် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အကြင် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အားလုံး 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မှတစ်ပါး 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဘယ်လောက် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်စုံတစ်ရာ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သူ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တဲ့ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကဲ့သို့ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒါ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စိုးစဉ်းမျှ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မည်ရွေ့မည်မျှ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျွန်မ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒါပေမဲ့ 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကိုယ်တိုင် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သင် 
+Count  : 7 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကွန်ရွက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ချွေး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အတွင်းခံ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆွမ်းအုပ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဂုဏဝန် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ခွေးတရော်ပင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ညွန် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အမဲရွတ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မုခ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆွဲချိန်ခွင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မဟာဒါန် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လှုံ့ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ထန်းဆင့်ပင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တကြုတ်ကြုတ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကစားဒိုင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရိတ်လှီး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရောဂါဆိုး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တမ်း 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စေ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သာ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပင်လယ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဖောက်သည် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အား 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နိုင်ငံ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဝမ်းတွင်းကောက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လဲဝါ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးရူတိုင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ငြီးငွေ့ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စရိုက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ငှက်ကြီးတောင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆားမီးဖုတ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဘိလပ်ရည် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ခေါင်းဆောင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မိုးသောက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြစ်တွေးငှက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နောက်ယောင်ခံ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျိုးပေါက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ချောမွေ့ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သာသနာပ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ညှဉ်းဆိုးဆိုး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြေဝပ်ငှက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ခေါ်ဝေါ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သဘောရ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အောက်သူ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပင့်ကန် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဖုန်မှုန့် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နင့် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကိုယ်လုပ်တော် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရေချမ်းစင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဗိုလ်ကေ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကလိန်းကလက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နှင်းဆီ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ချင့် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အဟောင်းအမြင်း 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဝံ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နန်းတက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နီးပါး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တစ်မျက် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆင်ပြာသည်းပင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဘော် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မျောက်ဆိပ်ပင် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လောင်မီး 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ချောဆွဲ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြို့ပြ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဗွေ 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပေကလတ်ပေကလတ် 
+Count  : 5 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt']
+----------------------------------------------------------------------------------------------------
