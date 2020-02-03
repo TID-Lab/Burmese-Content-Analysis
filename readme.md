@@ -2,18 +2,20 @@ JSON Structures:
 
 File: text/word_list.json
 Notes: Contains words list along with source information.
-JSON: 
+```json
 [
 	{
 		"source": String,
-		"words" : [Unicode format]
+		"words" : [ Burmese Text ]
 	}
 ]
+```
 
 File: text/all_words.json
 Notes: Contains all words without repetitions
-JSON:
+```json
 [
-    Unicode format
+	Burmese Text
 ]
+```
 
