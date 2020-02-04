@@ -10,8 +10,411 @@ Unique words by source:
 
 
 
-Max used words
+Least 100 used words
+Word   : တိန်းလုံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပြီးဆုံးသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးမြ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အင်တာနေရှင်နယ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်နန်းမြထွေး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စစ်ထောက်လှမ်းရေး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဘင်္ဂလီဆား 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးယီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကြုံကြီး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မန်းတင်မောင်အေး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ခိကဖွိုင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တခါတလေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကံထူးသူ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်ညွန့်ညွန့်နွယ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သံဓာတ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သရက်အုပ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးကိုကိုဦး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်ရွှေရီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ခြံလယ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ထေးဇန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ငါးနန်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆန်ပွဲရုံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မန်းအီဟန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပသျှူးင်္အကျီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးစိုင်းကျော်ဟိန်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စိတ်တူသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဗျိုင်းချယ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးလအောင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်ခင်လှဦးဝေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဝမ်းဘဲချိုင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြောက်နဝင်းရွာသစ်ကြီး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နမ့်အွမ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးဖိုးအေး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မိုင်းကိုး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရက်ခုန်းတိုင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အရန်လူ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်ဝင်းဝင်းရီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဝါးရင်းချိုင့် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျီရာပြင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဇီးတောကြီး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးစောနေဒွန်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးတင့်မောင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သင်္ကန်းဆိုင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးတင့်ဆွေဦး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကွမ်ဘီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးနေဝင်းဆွေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စပါယ်နဂို 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : စွန်တက် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ချို့ယွင်းသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျစ်ကိုင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြန်မာ့ပုလဲ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒိုးအင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးအင်ဒေါင်ဂျာနော် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်လှငွေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရှဖတ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လွယ်ဟင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လက်ရယူ၊ လက်ရသိမ်း 
+Count  : 1 
+Source : ['https://github.com/trhura/mymr-lang-resources/blob/master/words/words']
+----------------------------------------------------------------------------------------------------
+Word   : တောကံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : တိမ်မရှိသော 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးဆော်လမွန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မျက်စိနာသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဝက်ထီးတောင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရစ်ဂျော် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မဘေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရှမ်းလယ်ပြင် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆောင်ဖ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်ဒွဲဘူ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မဟာမိတ်ဖွဲ့ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကျော်ကိုကို 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပဲခိုးစု 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အေအိုင်ဒီအက် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်သိန်းတန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်နဆီယံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးဂူဆာ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : နှိုက်နှိုက်ကျွတ်ကျွတ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အင်းသမား 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပန်းလား 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ကိုယ်ဝန်ပျက်သည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဂုမ္မကွင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရွာတုံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးအုန်းစိန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မန်ဆန်ရေကျ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးစိုင်းနွံ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရေပေါ်ကန် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒီမောဆို 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မလူ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ပိန်းဆန်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဖျစ်ညှစ်၍ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : မြဝတီ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ငြိမ်းသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : လောင်းရှည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဂိတ်ထိုးသည် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးလှဌေးဝင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဒေါ်စိန်မေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : သစ်ဖြူကွင်း 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဗိလတ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ရှဲန်းကျောက်သွေး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဆီမီးဖိုင်နယ် 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : အညွှန့်ချိုး 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
+Word   : ဦးလွန်းရွှေ 
+Count  : 1 
+Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt']
+----------------------------------------------------------------------------------------------------
 
+
+
+Max 100 used words
 Word   : မည်သည် 
 Count  : 7 
 Source : ['https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools/blob/master/znlp/burmese_df.txt', 'https://github.com/trhura/mymr-lang-resources/blob/master/words/words', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/common-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/dict-words.txt', 'https://raw.githubusercontent.com/eimg/myanmar-text-breaker/master/stop-words.txt', 'https://raw.githubusercontent.com/mcfnlp/Head-Word/master/Unique-TotalHWords_32885_10.2.2012.txt', 'https://raw.githubusercontent.com/swanhtet1992/myanmar-data/master/stop_words.txt']

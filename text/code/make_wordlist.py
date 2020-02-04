@@ -72,12 +72,17 @@ class WordListMaker():
             for k, v in unique_words_by_src.items():
                 word_stats_f.write("\t{} - {}\n".format(k, str(v)))
             word_stats_f.write("\n\n\n")
-            word_stats_f.write("Max used words\n")
+            word_stats_f.write("Least 100 used words\n")
+            word_stats_obj = {k: v for k, v in sorted(word_stats_obj.items(), key=lambda item: item[1]["count"])}
+            for k, v in list(word_stats_obj.items())[:100]:
+                word_stats_f.write("Word   : {} \nCount  : {} \nSource : {}\n".format(reverse_mapping[k], str(v["count"]), str(v["source"])))
+                word_stats_f.write("-"*100 + "\n")
+            word_stats_f.write("\n\n\n")
+            word_stats_f.write("Max 100 used words\n")
             word_stats_obj = {k: v for k, v in sorted(word_stats_obj.items(), key=lambda item: item[1]["count"], reverse=True)}
             for k, v in list(word_stats_obj.items())[:100]:
                 word_stats_f.write("Word   : {} \nCount  : {} \nSource : {}\n".format(reverse_mapping[k], str(v["count"]), str(v["source"])))
                 word_stats_f.write("-"*100 + "\n")
-                
         
             
 
@@ -89,4 +94,4 @@ class WordListMaker():
 if __name__ == "__main__":
     wordListMaker = WordListMaker()
     # wordListMaker.createWordList("b7.txt")
-    # wordListMaker.wordStatistics()
+    wordListMaker.wordStatistics()
