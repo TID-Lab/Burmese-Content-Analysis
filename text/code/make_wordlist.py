@@ -78,7 +78,7 @@ class WordListMaker():
                 json.dump(word_stats_obj, word_stats_obj_f, indent=4, ensure_ascii=False)
             word_dict_by_count = collections.defaultdict(list)
             for k, v in list(word_stats_obj.items()):
-                word_dict_by_count[v["count"]].append(k)  
+                word_dict_by_count[v["count"]].append(reverse_mapping[k])  
             with open("../analysis/word_list_by_count.json", "w", encoding="utf-8") as word_list_by_count_f:
                 json.dump(word_dict_by_count, word_list_by_count_f, indent=4, ensure_ascii=False)
             for k, v in word_dict_by_count.items():
