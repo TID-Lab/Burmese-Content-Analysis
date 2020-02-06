@@ -1,6 +1,6 @@
 import os
 import json
-
+import collections
 
 class WordListMaker():
     def __init__(self):
@@ -72,8 +72,18 @@ class WordListMaker():
             for k, v in unique_words_by_src.items():
                 word_stats_f.write("\t{} - {}\n".format(k, str(v)))
             word_stats_f.write("\n\n\n")
-            word_stats_f.write("Least 100 used words\n")
+            
             word_stats_obj = {k: v for k, v in sorted(word_stats_obj.items(), key=lambda item: item[1]["count"])}
+            with open("../analysis/word_stats_obj.json", "w", encoding="utf-8") as word_stats_obj_f:
+                json.dump(word_stats_obj, word_stats_obj_f, indent=4, ensure_ascii=False)
+            word_dict_by_count = collections.defaultdict(list)
+            for k, v in list(word_stats_obj.items()):
+                word_dict_by_count[v["count"]].append(k)  
+            with open("../analysis/word_list_by_count.json", "w", encoding="utf-8") as word_list_by_count_f:
+                json.dump(word_dict_by_count, word_list_by_count_f, indent=4, ensure_ascii=False)
+            for k, v in word_dict_by_count.items():
+                word_stats_f.write("Number of words appearing in {} dictionary : {}\n".format(k, len(v)))
+            word_stats_f.write("Least 100 used words\n")
             for k, v in list(word_stats_obj.items())[:100]:
                 word_stats_f.write("Word   : {} \nCount  : {} \nSource : {}\n".format(reverse_mapping[k], str(v["count"]), str(v["source"])))
                 word_stats_f.write("-"*100 + "\n")

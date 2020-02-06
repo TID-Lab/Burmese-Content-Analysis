@@ -10,6 +10,12 @@ Unique words by source:
 
 
 
+Number of words appearing in 1 dictionary : 30664
+Number of words appearing in 2 dictionary : 2306
+Number of words appearing in 3 dictionary : 24355
+Number of words appearing in 4 dictionary : 53
+Number of words appearing in 5 dictionary : 17563
+Number of words appearing in 7 dictionary : 34
 Least 100 used words
 Word   : တိန်းလုံ 
 Count  : 1 
