@@ -80,7 +80,7 @@ class DataCollector:
 
     
     def print_data_to_file(self, file_name):
-        with open(os.path.join(self.project_dir, file_name), "r+") as link_data_json:
+        with open(os.path.join(self.project_dir, file_name), "r+", encoding="utf-8") as link_data_json:
             try:
                 # print(data_collector.parsed_links)
                 existing_content = json.load(link_data_json)
@@ -103,32 +103,71 @@ class DataCollector:
                 json.dump(list(union_set), url_list_json, indent=4, ensure_ascii=False)
             except json.decoder.JSONDecodeError:
                 json.dump(list(self.parsed_links), url_list_json, indent=4, ensure_ascii=False)
-        
+    
 
+
+
+    def get_bible_data(self):
+        bible_website = "http://www.myanmarbible.com/bible/Judson/html/"
+        headers = {'User-Agent': 'Mozilla/5.0', 'Content-Type': 'text/html','charset':'utf-8'}
+        try:
+            response = requests.get(bible_website, headers=headers)
+             #needed because by default, python requests library makes an educated guess about encoding which might not be right
+            response.encoding = response.apparent_encoding  
+        except:
+            return None, None
+        html = response.text
+        # print(html)
+        soup = bs4.BeautifulSoup(html, "html.parser")
+        
+        embedded_article_links = [] #links on the current page
+        article_text = ""
+        # Find all the direct children of content_div that are paragraphs
+        for a_element in soup.find_all("a"):
+            embedded_link = a_element.get('href') 
+            #excluding in page links
+            if embedded_link and re.search(r"(html)",embedded_link) and not re.search(r"(#cite|index.php|copyright)", embedded_link):
+                embedded_article_links.append(urllib.parse.unquote(embedded_link))
+        self.parsed_links = self.parsed_links.union(set(embedded_article_links))
+        for link in self.parsed_links:
+            try:
+                response = requests.get(bible_website+link, headers=headers)
+                #needed because by default, python requests library makes an educated guess about encoding which might not be right
+                response.encoding = response.apparent_encoding  
+            except:
+                return None
+            
+            html = response.text
+            soup = bs4.BeautifulSoup(html, "html.parser")
+            text = ""
+            for p_element in soup.find_all("p"):
+                if "class" not in p_element.attrs:
+                # print(type(p_element.get_text()))
+                    # print(p_element.get_text())
+                    text += p_element.get_text()
+                    
+                    print(str(text))
+                    break
+            self.link_data_obj[link]["text-data"] = text 
+        
 
 
 
 
 if __name__ == "__main__":
     project_dir = "/home/harshil/Harshil/gt/spring2020/research2/burmese-NLP"
-    wiki_url_file = "text/data/burmese_wiki/wiki_urls.json"
-    wiki_data_file = "text/data/burmese_wiki/wiki_data.json"
+    url_file = "data/urls.json"
+    data_file = "data/data.json"
+    bible_website = "http://www.myanmarbible.com/bible/Judson/html/"
     # link = "/wiki/ဖေ့စ်ဘွတ်ခ်"
-    link1 = "/wiki/အက်ဒွင်_လတ္တယင်"
-    data_collector = DataCollector()
-
+    # link1 = "/wiki/အက်ဒွင်_လတ္တယင်"
+    # data_collector = DataCollector()
+    # data_collector.get_links_iteratively(link1)
+    # data_collector.print_links_to_file(url_file)
+    # data_collector.get_data_urls_json(url_file, data_file)
+    # data_collector.print_data_to_file(data_file)
     
-    #collect urls 
-    data_collector.get_links_iteratively(link1)
-
-    #print urls to file
-    data_collector.print_links_to_file(wiki_url_file)
-
-    #use printed urls to get text data and store it in wiki_data_file
-    data_collector.get_data_urls_json(wiki_url_file, wiki_data_file)
-    
-
-
+    # data_collector.get_bible_data()
 
     
 
