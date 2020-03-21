@@ -34,7 +34,7 @@ class DataProcessing:
                 original_text[key]["segmented-data"] = segmented_text
 
             with open(target_file, "w", encoding="utf-8") as output_file:
-                json.dump(original_text, output_file,  ensure_ascii=False) 
+                json.dump(original_text, output_file, indent=4,  ensure_ascii=False) 
 
 
 
@@ -42,8 +42,8 @@ class DataProcessing:
 if __name__ == "__main__":
     dataProcessor = DataProcessing()
     project_dir = "/home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/"
-    src_file = "data/burmese_wiki/wiki_data_2.json"
-    target_file = "data/burmese_wiki/wiki_data_2_processed.json"
+    src_file = "data/burmese_wiki/wiki_data_1.json"
+    target_file = "data/burmese_wiki/wiki_data_1_processed.json"
     # src_file = "data/bible/bible_data.json"
     # target_file = "data/bible/bible_data_processed.json"
     dataProcessor.process_annotated_data(os.path.join(project_dir+src_file), os.path.join(project_dir+target_file))
