@@ -1,4 +1,5 @@
 .vscode/
 text/code/temp.py
-
+__pycache__/
+archive/
 
