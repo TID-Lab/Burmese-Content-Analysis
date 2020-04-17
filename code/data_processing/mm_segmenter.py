@@ -77,10 +77,11 @@ class Segmenter():
     def sanitize_string(self, input_string=None):
         if type(input_string) is not str:
             input_string = str(input_string, "utf8")
-
+        # print(input_string)
         if mm_detector.is_zawgyi(input_string=input_string):
             input_string = mm_converter.zawgyi_to_unicode(input_string=input_string)
             # print input_string
+            # print(input_string)
         input_string = mm_normalizer.normalize(input_string=input_string)
 
         ## remove spaces between myanmar words
@@ -108,7 +109,9 @@ class Segmenter():
 
 
     def segment(self, input_string):
+        # print(input_string)
         input_string = self.sanitize_string(input_string=input_string)
+        # print(input_string)
         segmented_words = []
         self.segmented_matches = []
         if len(input_string) > 0:

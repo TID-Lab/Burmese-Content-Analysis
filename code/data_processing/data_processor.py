@@ -16,7 +16,6 @@ from collections import OrderedDict
 class DataProcessing:
     def __init__(self, *args, **kwargs):
         self.segmenter = mm.Segmenter()
-
     # removes all ascii characters.
     def process_annotated_data(self, src_file, target_file):
         non_burmese_pattern = re.compile("[^"

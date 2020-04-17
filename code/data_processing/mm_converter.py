@@ -9,7 +9,7 @@ import mm_normalizer
 def zawgyi_to_unicode(input_string=None):
     if type(input_string) is not str:
         input_string = str(input_string, "utf-8")
-
+    
     input_string = re.sub(r"\\u106A", "\u1009", input_string)
     input_string = re.sub(r"\\u1025\\u1039", "\u1009\u1039", input_string)
     input_string = re.sub(r"\\u1025\\u102C", "\u1009\u102C", input_string)

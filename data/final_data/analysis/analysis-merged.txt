@@ -1,0 +1,12 @@
+Bible Dump: 
+ Num tokens before segmentation: 3312 
+ Num tokens after segmentation:  37719
+Oscar Dump: 
+ Num tokens before segmentation: 51387665 
+ Num tokens after segmentation: 166963550
+UDHR Dump: 
+ Num tokens before segmentation: 1252 
+ Num tokens after segmentation: 2874
+Wikipedia Dump: 
+ Num tokens before segmentation: 8060821 
+ Num tokens after segmentation: 21995848
