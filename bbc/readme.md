@@ -1,3 +1,5 @@
+## Instructions
+
 - Make sure that data folder contains the training and the test data. The data can be obtained from the lab's google drive under ml-evaluation-models/evaluation.
 - To train and test the classifier, run the following command:
 ```python
