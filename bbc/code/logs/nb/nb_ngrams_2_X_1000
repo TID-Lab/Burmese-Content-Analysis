@@ -1,0 +1,34 @@
+2020-05-23 01:10:04,279 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/ml-evaluation-models/bbc/data/X_1000.json
+2020-05-23 01:10:04,320 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/ml-evaluation-models/bbc/data/X_1000.json
+2020-05-23 01:10:04,320 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/ml-evaluation-models/bbc/data/y_1000.json
+2020-05-23 01:10:04,321 INFO     Data loaded
+2020-05-23 01:10:04,321 INFO     Num articles: 2500
+2020-05-23 01:10:04,321 INFO     Training data size : 2000
+2020-05-23 01:10:04,321 INFO     Testing data size: 500
+2020-05-23 01:10:04,322 INFO     Y encoded
+2020-05-23 01:10:04,322 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-05-23 01:10:05,226 INFO     Feature names : ['ကက တယ', 'ကက နက', 'ကက သလစ', 'ကခ ခသည', 'ကခ စစ', 'ကခ တပ', 'ကခ နယ', 'ကခ ရင', 'ကခ လပ', 'ကခ အဖ', 'ကင စခန', 'ကင စင', 'ကင တက', 'ကင တယ', 'ကင မရ', 'ကင သမ', 'ကင အတ', 'ကစ စတန', 'ကစ တယ', 'ကစ ဝန'] ...
+2020-05-23 01:10:05,226 INFO     Vectorized X train dimensions: (2000, 5000)
+2020-05-23 01:10:05,226 INFO     Vectorized X test dimensions: (500, 5000)
+2020-05-23 01:10:05,283 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-05-23 01:10:05,286 INFO     
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89       300
+           1       0.83      0.86      0.85       200
+
+    accuracy                           0.87       500
+   macro avg       0.87      0.87      0.87       500
+weighted avg       0.88      0.87      0.87       500
+
+2020-05-23 01:10:05,286 INFO     Grid NB Best Parameters: {'alpha': 0.5}
+2020-05-23 01:10:05,288 INFO     
+params mean_test_score
+"{'alpha': 0.1}" 0.8535
+"{'alpha': 0.2}" 0.8555
+"{'alpha': 0.4}" 0.861
+"{'alpha': 0.5}" 0.864
+"{'alpha': 0.7}" 0.862
+"{'alpha': 0.9}" 0.8635
+"{'alpha': 1}" 0.8625
+

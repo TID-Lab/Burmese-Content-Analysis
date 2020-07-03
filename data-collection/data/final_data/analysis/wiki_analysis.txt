@@ -1,0 +1,3 @@
+Wikipedia Dump: 
+ Num tokens before segmentation: 8060821 
+ Num tokens after segmentation: 21995848

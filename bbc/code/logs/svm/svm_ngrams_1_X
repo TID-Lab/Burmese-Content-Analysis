@@ -1,0 +1,31 @@
+2020-05-29 19:34:34,032 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/corpus_2_classes.json
+2020-05-29 19:34:34,993 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/X.json
+2020-05-29 19:34:35,021 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/y.json
+2020-05-29 19:34:35,047 INFO     Data loaded
+2020-05-29 19:34:35,047 INFO     Num articles: 24189
+2020-05-29 19:34:35,047 INFO     Training data size : 19351
+2020-05-29 19:34:35,047 INFO     Testing data size: 4838
+2020-05-29 19:34:35,065 INFO     Y encoded
+2020-05-29 19:34:35,066 INFO     Data vectorized using Count Vectorizer with 1 ngrams
+2020-05-29 19:34:46,873 INFO     Feature names : ['ကက', 'ကကက', 'ကကဏ', 'ကကတ', 'ကကထ', 'ကကန', 'ကကမ', 'ကကယ', 'ကကလ', 'ကကသ', 'ကခ', 'ကခန', 'ကခရ', 'ကဂ', 'ကင', 'ကစ', 'ကစက', 'ကစခ', 'ကစင', 'ကစစ'] ...
+2020-05-29 19:34:46,873 INFO     Vectorized X train dimensions: (19351, 5000)
+2020-05-29 19:34:46,873 INFO     Vectorized X test dimensions: (4838, 5000)
+2020-05-29 20:05:02,220 INFO     classifier: SVM Classifier (Grid search)
+2020-05-29 20:05:02,243 INFO     
+              precision    recall  f1-score   support
+
+           0       0.92      0.88      0.90      2773
+           1       0.84      0.90      0.87      2065
+
+    accuracy                           0.89      4838
+   macro avg       0.88      0.89      0.89      4838
+weighted avg       0.89      0.89      0.89      4838
+
+2020-05-29 20:05:02,243 INFO     Grid SVM Best Parameters: {'C': 0.1, 'gamma': 10, 'kernel': 'linear'}
+2020-05-29 20:05:02,252 INFO     
+params mean_test_score
+"{'C': 0.001, 'gamma': 10, 'kernel': 'linear'}" 0.8492067593406025
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.868327218231616
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.8731331714123302
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.8602139424319156
+

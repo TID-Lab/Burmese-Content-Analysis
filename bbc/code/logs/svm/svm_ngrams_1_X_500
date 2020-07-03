@@ -1,0 +1,67 @@
+2020-05-27 23:51:52,867 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/X_500.json
+2020-05-27 23:51:52,881 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/X_500.json
+2020-05-27 23:51:52,882 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/bbc/data/y_500.json
+2020-05-27 23:51:52,882 INFO     Data loaded
+2020-05-27 23:51:52,882 INFO     Num articles: 1250
+2020-05-27 23:51:52,882 INFO     Training data size : 1000
+2020-05-27 23:51:52,882 INFO     Testing data size: 250
+2020-05-27 23:51:52,883 INFO     Y encoded
+2020-05-27 23:51:52,883 INFO     Data vectorized using Count Vectorizer with 1 ngrams
+2020-05-27 23:51:53,186 INFO     Feature names : ['ကက', 'ကကက', 'ကကတ', 'ကကတစ', 'ကကန', 'ကကဖ', 'ကကမ', 'ကကယ', 'ကခ', 'ကခန', 'ကင', 'ကစ', 'ကစစ', 'ကစတင', 'ကစပ', 'ကစဖ', 'ကစလ', 'ကဆ', 'ကဆက', 'ကဆင'] ...
+2020-05-27 23:51:53,186 INFO     Vectorized X train dimensions: (1000, 2334)
+2020-05-27 23:51:53,186 INFO     Vectorized X test dimensions: (250, 2334)
+2020-05-27 23:52:18,749 INFO     classifier: SVM Classifier (Grid search)
+2020-05-27 23:52:18,752 INFO     
+              precision    recall  f1-score   support
+
+           0       0.83      0.78      0.80       147
+           1       0.71      0.77      0.73       103
+
+    accuracy                           0.77       250
+   macro avg       0.77      0.77      0.77       250
+weighted avg       0.78      0.77      0.77       250
+
+2020-05-27 23:52:18,752 INFO     Grid SVM Best Parameters: {'C': 0.1, 'gamma': 10, 'kernel': 'linear'}
+2020-05-27 23:52:18,757 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.794
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.572
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.794
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.572
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.794
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.572
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.794
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.572
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.798
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.572
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.798
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.572
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.798
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.572
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.798
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.69
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.774
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.572
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.774
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.572
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.774
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.572
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.774
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.749
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.77
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.572
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.77
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.572
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.77
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.573
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.77
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.749
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.77
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.572
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.77
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.572
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.77
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.573
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.77
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.745
+

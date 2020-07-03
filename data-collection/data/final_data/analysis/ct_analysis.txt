@@ -1,0 +1,3 @@
+Crowdtangle Dump: 
+ Num tokens before segmentation: 1558 
+ Num tokens after segmentation: 5249

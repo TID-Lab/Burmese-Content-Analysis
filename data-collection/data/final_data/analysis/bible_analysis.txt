@@ -1,0 +1,3 @@
+Bible Dump: 
+ Num tokens before segmentation: 3312 
+ Num tokens after segmentation:  37719

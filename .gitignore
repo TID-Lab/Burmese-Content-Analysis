@@ -1,5 +1,17 @@
 .vscode/
-text/code/temp.py
 __pycache__/
-archive/
 
+alt-treebank/data
+bbc/data
+alt-treebank/classifiers
+bbc/classifiers
+
+data-collection/temp/
+data-collection/data/bible/
+data-collection/data/corpus_crawl/
+data-collection/data/crowdtangle/
+data-collection/data/final_data/segmented/
+data-collection/data/final_data/unsegmented/
+data-collection/data/oscar_raw
+data-collection/data/wiki_dump
+data-collection/text/code/temp.py

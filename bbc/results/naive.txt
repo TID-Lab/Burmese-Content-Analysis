@@ -1,0 +1,26 @@
+classifier: Naive Bayes Classifier
+              precision    recall  f1-score   support
+
+       burma       0.83      0.92      0.88      2760
+     economy       1.00      0.10      0.18        20
+       sport       0.95      0.36      0.52       107
+       world       0.85      0.77      0.81      2071
+
+    accuracy                           0.84      4958
+   macro avg       0.91      0.54      0.60      4958
+weighted avg       0.84      0.84      0.84      4958
+
+Grid NB Best Parameters: {'alpha': 0.2}
+
+classifier: Naive Bayes Classifier (Grid search)
+              precision    recall  f1-score   support
+
+       burma       0.85      0.91      0.88      2759
+       world       0.87      0.78      0.82      2079
+
+    accuracy                           0.86      4838
+   macro avg       0.86      0.85      0.85      4838
+weighted avg       0.86      0.86      0.86      4838
+
+Grid NB Best Parameters: {'alpha': 0.1}
+

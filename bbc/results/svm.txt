@@ -1,0 +1,37 @@
+classifier: SVM Classifier
+              precision    recall  f1-score   support
+
+       burma       0.93      0.92      0.92      2760
+     economy       0.88      0.35      0.50        20
+       sport       0.86      0.63      0.72       107
+       world       0.88      0.91      0.89      2071
+
+    accuracy                           0.91      4958
+   macro avg       0.89      0.70      0.76      4958
+weighted avg       0.91      0.91      0.90      4958
+
+Grid SVM Best Parameters: {'C': 1, 'gamma': 2}
+
+classifier: SVM Classifier
+              precision    recall  f1-score   support
+
+       burma       0.92      0.91      0.92      2745
+       world       0.89      0.90      0.89      2093
+
+    accuracy                           0.91      4838
+   macro avg       0.90      0.91      0.91      4838
+weighted avg       0.91      0.91      0.91      4838
+
+Grid SVM Best Parameters: {'C': 1, 'gamma': 2}
+
+classifier: SVM Classifier (Grid search)
+              precision    recall  f1-score   support
+
+       burma       0.91      0.91      0.91      2723
+       world       0.88      0.89      0.88      2115
+
+    accuracy                           0.90      4838
+   macro avg       0.90      0.90      0.90      4838
+weighted avg       0.90      0.90      0.90      4838
+
+Grid SVM Best Parameters: {'C': 100, 'gamma': 1}
