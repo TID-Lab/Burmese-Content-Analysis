@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+         adj       0.28      1.00      0.43     38559
+
+   micro avg       0.28      1.00      0.43     38559
+   macro avg       0.28      1.00      0.43     38559
+weighted avg       0.28      1.00      0.43     38559
+
+{'val_loss': [1.9052091241867473], 'val_accuracy': [0.2763572633266449], 'loss': [2.010764107063227], 'accuracy': [0.2644015]}

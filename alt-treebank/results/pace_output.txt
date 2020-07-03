@@ -1,0 +1,63 @@
+Begin PBS Prologue Wed Jul  1 17:51:12 EDT 2020
+Job ID:     29368886.shared-sched.pace.gatech.edu
+User ID:    hshah88
+Job name:   training
+Queue:      coc
+End PBS Prologue Wed Jul  1 17:51:12 EDT 2020
+---------------------------------------
+Dataset Information
+--------------------------------------------------
+Num sentences: 20106
+Num tags: 12
+Tags:{'verb', 'punct', 'conj', 'adv', 'pron', 'det', 'adj', 'x', 'noun', 'adp', 'num', 'part'}
+Num unique words: 33959
+Total words: 716703
+['adj' 'adp' 'adv' 'conj' 'det' 'noun' 'num' 'part' 'pron' 'punct' 'verb'
+ 'x']
+12
+Epoch 1/5
+1691/1691 [==============================] - 99s 59ms/step - loss: 0.1596 - accuracy: 0.9500 - val_loss: 0.0863 - val_accuracy: 0.9704
+Epoch 2/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0631 - accuracy: 0.9785 - val_loss: 0.0863 - val_accuracy: 0.9716
+Epoch 3/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0496 - accuracy: 0.9828 - val_loss: 0.0879 - val_accuracy: 0.9714
+Epoch 4/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0418 - accuracy: 0.9857 - val_loss: 0.0791 - val_accuracy: 0.9747
+Epoch 5/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0373 - accuracy: 0.9870 - val_loss: 0.0904 - val_accuracy: 0.9728
+{'loss': [0.15958280861377716, 0.06305499374866486, 0.04963957145810127, 0.04182092100381851, 0.03725719451904297], 'accuracy': [0.9500175714492798, 0.9784970879554749, 0.9827662706375122, 0.9856516718864441, 0.986998438835144], 'val_loss': [0.08633624017238617, 0.08626207709312439, 0.0878680869936943, 0.0790809839963913, 0.09042713791131973], 'val_accuracy': [0.97039794921875, 0.971647322177887, 0.9714113473892212, 0.9746803641319275, 0.9727717041969299]}
+546/546 [==============================] - 3s 6ms/step
+546/546 [==============================] - 3s 6ms/step - loss: 0.0878 - accuracy: 0.9732
+0.9731884002685547
+(139753,)
+(139753,)
+              precision    recall  f1-score   support
+
+         adj       0.97      0.88      0.92      2070
+         adp       0.96      0.98      0.97     18332
+         adv       0.97      0.94      0.96      2467
+        conj       0.91      0.75      0.82      2932
+         det       0.90      0.93      0.91       987
+        noun       0.99      0.98      0.99     37207
+         num       1.00      0.99      0.99      4426
+        part       0.97      0.97      0.97     38559
+        pron       0.96      0.98      0.97      2812
+       punct       1.00      1.00      1.00      8009
+        verb       0.96      0.99      0.98     21952
+
+    accuracy                           0.97    139753
+   macro avg       0.96      0.94      0.95    139753
+weighted avg       0.97      0.97      0.97    139753
+
+---------------------------------------
+Begin PBS Epilogue Wed Jul  1 18:02:47 EDT 2020
+Job ID:     29368886.shared-sched.pace.gatech.edu
+User ID:    hshah88
+Job name:   training
+Resources:  mem=8gb,neednodes=12:ppn=4,nodes=12:ppn=4,walltime=20:00:00
+Rsrc Used:  cput=00:54:52,energy_used=0,mem=2103820kb,vmem=8278616kb,walltime=00:11:30
+Queue:      coc
+Nodes:     
+rich133-h29-37-l.pace.gatech.edu rich133-h29-37-r.pace.gatech.edu
+End PBS Epilogue Wed Jul  1 18:02:47 EDT 2020
+

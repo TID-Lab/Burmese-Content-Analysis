@@ -1,0 +1,233 @@
+{
+    "nb": {
+        "ngrams2-3": {
+            "original": [
+                {
+                    "file_name": "nb_ngrams_2-3_X_5000",
+                    "training_data_size": " 10000",
+                    "testing_data_size": " 2500",
+                    "accuracy_avg": " 0.88",
+                    "recall_avg": " 0.88",
+                    "precision_avg": "  0.88",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_ngrams_2-3_X_500",
+                    "training_data_size": " 1000",
+                    "testing_data_size": " 250",
+                    "accuracy_avg": " 0.80",
+                    "recall_avg": " 0.80",
+                    "precision_avg": "  0.80",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.9}"
+                },
+                {
+                    "file_name": "nb_ngrams_2-3_X_1000",
+                    "training_data_size": " 2000",
+                    "testing_data_size": " 500",
+                    "accuracy_avg": " 0.86",
+                    "recall_avg": " 0.86",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 1}"
+                },
+                {
+                    "file_name": "nb_ngrams_2-3_X",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.89",
+                    "recall_avg": " 0.89",
+                    "precision_avg": "  0.89",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_ngrams_2-3_X_100",
+                    "training_data_size": " 200",
+                    "testing_data_size": " 50",
+                    "accuracy_avg": " 0.80",
+                    "recall_avg": " 0.80",
+                    "precision_avg": "  0.80",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                }
+            ]
+        },
+        "ngrams1": {
+            "original": [
+                {
+                    "file_name": "nb_ngrams_1_X_5000",
+                    "training_data_size": " 10000",
+                    "testing_data_size": " 2500",
+                    "accuracy_avg": " 0.86",
+                    "recall_avg": " 0.86",
+                    "precision_avg": "  0.86",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_ngrams_1_X_100",
+                    "training_data_size": " 200",
+                    "testing_data_size": " 50",
+                    "accuracy_avg": " 0.78",
+                    "recall_avg": " 0.78",
+                    "precision_avg": "  0.79",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.9}"
+                },
+                {
+                    "file_name": "nb_ngrams_1_X_1000",
+                    "training_data_size": " 2000",
+                    "testing_data_size": " 500",
+                    "accuracy_avg": " 0.83",
+                    "recall_avg": " 0.83",
+                    "precision_avg": "  0.83",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.4}"
+                },
+                {
+                    "file_name": "nb_ngrams_1_X",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.87",
+                    "recall_avg": " 0.87",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.2}"
+                },
+                {
+                    "file_name": "nb_ngrams_1_X_500",
+                    "training_data_size": " 1000",
+                    "testing_data_size": " 250",
+                    "accuracy_avg": " 0.80",
+                    "recall_avg": " 0.80",
+                    "precision_avg": "  0.80",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.2}"
+                }
+            ],
+            "dedup": [
+                {
+                    "file_name": "nb_ngrams_1_X_dedup",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.87",
+                    "recall_avg": " 0.87",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                }
+            ]
+        },
+        "tfidf": {
+            "original": [
+                {
+                    "file_name": "nb_tfidf_X_1000",
+                    "training_data_size": " 2000",
+                    "testing_data_size": " 500",
+                    "accuracy_avg": " 0.83",
+                    "recall_avg": " 0.84",
+                    "precision_avg": "  0.84",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_tfidf_X_100",
+                    "training_data_size": " 200",
+                    "testing_data_size": " 50",
+                    "accuracy_avg": " 0.86",
+                    "recall_avg": " 0.86",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.9}"
+                },
+                {
+                    "file_name": "nb_tfidf_X_5000",
+                    "training_data_size": " 10000",
+                    "testing_data_size": " 2500",
+                    "accuracy_avg": " 0.85",
+                    "recall_avg": " 0.86",
+                    "precision_avg": "  0.86",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_tfidf_X",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.90",
+                    "recall_avg": " 0.90",
+                    "precision_avg": "  0.90",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.4}"
+                },
+                {
+                    "file_name": "nb_tfidf_X_500",
+                    "training_data_size": " 1000",
+                    "testing_data_size": " 250",
+                    "accuracy_avg": " 0.83",
+                    "recall_avg": " 0.83",
+                    "precision_avg": "  0.83",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.2}"
+                }
+            ],
+            "dedup": [
+                {
+                    "file_name": "nb_tfidf_X_dedup",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.86",
+                    "recall_avg": " 0.87",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.2}"
+                }
+            ]
+        },
+        "ngrams2": {
+            "dedup": [
+                {
+                    "file_name": "nb_ngrams_2_X_dedup",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.87",
+                    "recall_avg": " 0.87",
+                    "precision_avg": "  0.87",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.4}"
+                }
+            ],
+            "original": [
+                {
+                    "file_name": "nb_ngrams_2_X_100",
+                    "training_data_size": " 200",
+                    "testing_data_size": " 50",
+                    "accuracy_avg": " 0.82",
+                    "recall_avg": " 0.82",
+                    "precision_avg": "  0.83",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.4}"
+                },
+                {
+                    "file_name": "nb_ngrams_2_X_5000",
+                    "training_data_size": " 10000",
+                    "testing_data_size": " 2500",
+                    "accuracy_avg": " 0.88",
+                    "recall_avg": " 0.88",
+                    "precision_avg": "  0.89",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_ngrams_2_X_500",
+                    "training_data_size": " 1000",
+                    "testing_data_size": " 250",
+                    "accuracy_avg": " 0.82",
+                    "recall_avg": " 0.82",
+                    "precision_avg": "  0.82",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.9}"
+                },
+                {
+                    "file_name": "nb_ngrams_2_X",
+                    "training_data_size": " 19351",
+                    "testing_data_size": " 4838",
+                    "accuracy_avg": " 0.89",
+                    "recall_avg": " 0.89",
+                    "precision_avg": "  0.90",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.1}"
+                },
+                {
+                    "file_name": "nb_ngrams_2_X_1000",
+                    "training_data_size": " 2000",
+                    "testing_data_size": " 500",
+                    "accuracy_avg": " 0.87",
+                    "recall_avg": " 0.87",
+                    "precision_avg": "  0.88",
+                    "best_params": "Grid NB Best Parameters: {'alpha': 0.5}"
+                }
+            ]
+        }
+    }
+}

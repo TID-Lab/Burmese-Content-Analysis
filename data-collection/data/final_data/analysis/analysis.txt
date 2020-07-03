@@ -1,0 +1,25 @@
+Total data size : 2.4 GB
+Total tokens    : 198,142,825
+Total lines     : 2,766,385
+Size            : 2.4 GB
+Wikipedia Dump[https://dumps.wikimedia.org/mywiki/20200401/]
+Tokens      : 21,995,848
+Lines       : 8,061
+Size        : 317 MB
+Myanmar BBC [https://www.bbc.com/burmese/]
+Tokens      : 9,142,834
+Lines       : 254,992
+Size        : 125 MB
+Myanmar Universal Declaration of Human Rights [https://unicode.org/udhr/d/udhr_mya.html]
+Tokens      : 2,874
+Lines       : 150
+Size        : 46 KB
+Burmese Bible [http://www.myanmarbible.com/bible/Judson/html/]
+Tokens      : 37,719
+Lines       : 198
+Size        : 440 KB
+OSCAR [https://traces1.inria.fr/oscar/]
+Tokens      : 166,963,550
+Lines       : 2,502,984
+Size        : 2.0 GB
+Note: Doesn't include crowdtangle data. Each line can have multiple sentences. Tokens were counted after segmentation.

@@ -1,0 +1,66 @@
+(harshil-conda-env) [hshah88@login-s1 ~]$ cat training.o29369669
+---------------------------------------
+Begin PBS Prologue Wed Jul  1 19:13:37 EDT 2020
+Job ID:     29369669.shared-sched.pace.gatech.edu
+User ID:    hshah88
+Job name:   training
+Queue:      coc
+End PBS Prologue Wed Jul  1 19:13:37 EDT 2020
+---------------------------------------
+Dataset Information
+--------------------------------------------------
+Num sentences: 20106
+Num tags: 12
+Tags:{'verb', 'adj', 'adp', 'x', 'punct', 'det', 'noun', 'conj', 'adv', 'part', 'pron', 'num'}
+Num unique words: 33959
+Total words: 716703
+['adj' 'adp' 'adv' 'conj' 'det' 'noun' 'num' 'part' 'pron' 'punct' 'verb'
+ 'x']
+12
+Epoch 1/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.2031 - accuracy: 0.9378 - val_loss: 0.0910 - val_accuracy: 0.9699
+Epoch 2/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0694 - accuracy: 0.9766 - val_loss: 0.0841 - val_accuracy: 0.9723
+Epoch 3/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0549 - accuracy: 0.9814 - val_loss: 0.0840 - val_accuracy: 0.9728
+Epoch 4/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0481 - accuracy: 0.9835 - val_loss: 0.0873 - val_accuracy: 0.9739
+Epoch 5/5
+1691/1691 [==============================] - 98s 58ms/step - loss: 0.0417 - accuracy: 0.9858 - val_loss: 0.0997 - val_accuracy: 0.9693
+{'loss': [0.20307515561580658, 0.06940999627113342, 0.054875776171684265, 0.04814881086349487, 0.04170273244380951], 'accuracy': [0.9378083944320679, 0.976632833480835, 0.9814448356628418, 0.9834662675857544, 0.9857532978057861], 'val_loss': [0.09095261245965958, 0.08405239135026932, 0.08397279679775238, 0.08728150278329849, 0.09968793392181396], 'val_accuracy': [0.9698913097381592, 0.9722719788551331, 0.9727578163146973, 0.9738613963127136, 0.9693083167076111]}
+546/546 [==============================] - 3s 5ms/step
+546/546 [==============================] - 3s 6ms/step - loss: 0.0991 - accuracy: 0.9690
+0.9690167903900146
+(139753,)
+(139753,)
+              precision    recall  f1-score   support
+
+         adj       0.94      0.89      0.91      2070
+         adp       0.95      0.99      0.97     18332
+         adv       0.95      0.94      0.95      2467
+        conj       0.90      0.77      0.83      2932
+         det       0.89      0.93      0.91       987
+        noun       0.99      0.97      0.98     37207
+         num       0.99      0.97      0.98      4426
+        part       0.98      0.96      0.97     38559
+        pron       0.96      0.97      0.96      2812
+       punct       1.00      1.00      1.00      8009
+        verb       0.94      0.99      0.97     21952
+
+    accuracy                           0.97    139753
+   macro avg       0.95      0.94      0.95    139753
+weighted avg       0.97      0.97      0.97    139753
+
+---------------------------------------
+Begin PBS Epilogue Wed Jul  1 19:25:11 EDT 2020
+Job ID:     29369669.shared-sched.pace.gatech.edu
+User ID:    hshah88
+Job name:   training
+Resources:  mem=8gb,neednodes=12:ppn=4,nodes=12:ppn=4,walltime=20:00:00
+Rsrc Used:  cput=00:33:06,energy_used=0,mem=2047784kb,vmem=5727160kb,walltime=00:11:26
+Queue:      coc
+Nodes:     
+rich133-h29-36-l.pace.gatech.edu rich133-h29-36-r.pace.gatech.edu 
+rich133-h29-37-l.pace.gatech.edu rich133-h29-37-r.pace.gatech.edu
+End PBS Epilogue Wed Jul  1 19:25:11 EDT 2020
+

@@ -1,0 +1,34 @@
+2020-05-23 00:22:12,732 INFO     Corpus: data/corpus-2-classes.json
+2020-05-23 00:22:12,732 INFO     X data : data/X.json
+2020-05-23 00:22:12,733 INFO     y data: data/y.json
+2020-05-23 00:22:12,733 INFO     Data loaded
+2020-05-23 00:22:12,733 INFO     Num articles: 24189
+2020-05-23 00:22:12,733 INFO     Training data size : 19351
+2020-05-23 00:22:12,733 INFO     Testing data size: 4838
+2020-05-23 00:22:12,739 INFO     Y encoded
+2020-05-23 00:22:12,739 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-05-23 00:22:20,773 INFO     Feature names : ['ကက တလ', 'ကက တလန', 'ကက နက', 'ကက သလစ', 'ကခ တပ', 'ကခ နယ', 'ကခ လပ', 'ကခ အဖ', 'ကင ကင', 'ကင စခန', 'ကင စင', 'ကင တယ', 'ကင မရ', 'ကင သမ', 'ကင အခ', 'ကင အတ', 'ကင အန', 'ကင အမ', 'ကစ စတန', 'ကစ တယ'] ...
+2020-05-23 00:22:20,773 INFO     Vectorized X train dimensions: (19351, 5000)
+2020-05-23 00:22:20,773 INFO     Vectorized X test dimensions: (4838, 5000)
+2020-05-23 00:22:21,057 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-05-23 00:22:21,065 INFO     
+              precision    recall  f1-score   support
+
+           0       0.93      0.89      0.91      2773
+           1       0.86      0.92      0.89      2065
+
+    accuracy                           0.90      4838
+   macro avg       0.90      0.90      0.90      4838
+weighted avg       0.90      0.90      0.90      4838
+
+2020-05-23 00:22:21,066 INFO     Grid NB Best Parameters: {'alpha': 0.1}
+2020-05-23 00:22:21,068 INFO     
+params mean_test_score
+"{'alpha': 0.1}" 0.8873960002067076
+"{'alpha': 0.2}" 0.8871376156270994
+"{'alpha': 0.4}" 0.8868792310474911
+"{'alpha': 0.5}" 0.8869309079634128
+"{'alpha': 0.7}" 0.8868792310474911
+"{'alpha': 0.9}" 0.8867758772156478
+"{'alpha': 1}" 0.8866725233838044
+

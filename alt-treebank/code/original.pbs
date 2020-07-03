@@ -1,0 +1,18 @@
+#This is an example PBS script to run a parallel python program
+#PBS -N training            # job name
+#PBS -l nodes=12:ppn=4       # number of nodes and cores per node required
+#PBS -l mem=8GB
+#PBS -l walltime=20:00:00      # duration of the job (ex: 15 min)
+#PBS -q coc             # queue name (where job is submitted)
+#PBS -k oe                  # combine output and error messages into 1 file
+#PBS -o python.out      # output file name
+#PBS -m abe                 # event notification, set to email on start, end, or fail
+#PBS -M hshah88@gatech.edu      # email to send notifications to
+
+                                    # computations start here
+cd /nv/hcoc1/hshah88/data/ml-evaluation-models/alt-treebank/code
+module load anaconda3/2019.10
+conda activate harshil-conda-env
+#module load anaconda3/2019.10       # loads python environment (anaconda)
+
+python nn.py
