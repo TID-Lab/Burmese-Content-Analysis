@@ -1,3 +1,4 @@
+# THIS README IS WORK IN PROGRESS.
 This is an ongoing project on applying NLP/ML methods on an under-resourced language (Burmese). The goal of the project is to detect hate-speech in Burmese language that can potentially threaten democratic processes like elections in Myanmar.
 
 # DATA COLLECTION
