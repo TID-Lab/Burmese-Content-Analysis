@@ -209,16 +209,6 @@ plot_model_performance(
     train_val_acc=history.history["val_accuracy"]
 )
 y_preds = clf.predict(X_test)
-# print("Y PRED")
-# print(y_preds[1])
-# print(y_preds[2])
-
-# print("Y test")
-# print(y_test[1])
-# print(y_test[2])
-# print("Y test")
-# print(y_test[1])
-# print(y_test[2])
 score = clf.score(X_test, y_test)
 print(score)
 y_test=np.argmax(y_test, axis=1)

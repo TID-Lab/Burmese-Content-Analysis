@@ -1,0 +1,36 @@
+#This is an example PBS script to run a parallel python program
+#PBS -N bbc_clf_training            # job name
+#PBS -l nodes=12:ppn=4       # number of nodes and cores per node required
+#PBS -l mem=8GB
+#PBS -l walltime=20:00:00      # duration of the job (ex: 15 min)
+#PBS -q coc             # queue name (where job is submitted)
+#PBS -k oe                  # combine output and error messages into 1 file
+#PBS -o python.out      # output file name
+#PBS -m abe                 # event notification, set to email on start, end, or fail
+
+                                    # computations start here
+module load anaconda3/2019.10       # loads python environment (anaconda)
+#python supervised-2-classes.py -m svm -x X_100.json -y y_100.json -c X_100.json -v tfidf &&
+#python supervised-2-classes.py -m svm -x X_100.json -y y_100.json -c X_100.json -v ngrams -n 1 &&
+#python supervised-2-classes.py -m svm -x X_100.json -y y_100.json -c X_100.json -v ngrams -n 2 &&
+
+#python supervised-2-classes.py -m svm -x X_500.json -y y_500.json -c X_500.json -v tfidf &&
+#python supervised-2-classes.py -m svm -x X_500.json -y y_500.json -c X_500.json -v ngrams -n 1 &&
+#python supervised-2-classes.py -m svm -x X_500.json -y y_500.json -c X_500.json -v ngrams -n 2 &&
+
+#python supervised-2-classes.py -m svm -x X_1000.json -y y_1000.json -c X_1000.json -v tfidf &&
+#python supervised-2-classes.py -m svm -x X_1000.json -y y_1000.json -c X_1000.json -v ngrams -n 1 &&
+#python supervised-2-classes.py -m svm -x X_1000.json -y y_1000.json -c X_1000.json -v ngrams -n 2 &&
+
+#python supervised-2-classes.py -m svm -x X_5000.json -y y_5000.json -c X_5000.json -v tfidf &&
+#python supervised-2-classes.py -m svm -x X_5000.json -y y_5000.json -c X_5000.json -v ngrams -n 1 &&
+#python supervised-2-classes.py -m svm -x X_5000.json -y y_5000.json -c X_5000.json -v ngrams -n 2
+
+python supervised-2-classes.py -m svm -x X.json -y y.json -c corpus_2_classes.json -v tfidf &&
+python supervised-2-classes.py -m svm -x X.json -y y.json -c corpus_2_classes.json -v ngrams -n 1 &&
+python supervised-2-classes.py -m svm -x X.json -y y.json -c corpus_2_classes.json -v ngrams -n 2
+
+
+#python supervised-2-classes.py -m svm -x X_dedup.json -y y_dedup.json -c corpus_2_classes.json -v tfidf &&
+#python supervised-2-classes.py -m svm -x X_dedup.json -y y_dedup.json -c corpus_2_classes.json -v ngrams -n 1 &&
+#python supervised-2-classes.py -m svm -x X_dedup.json -y y_dedup.json -c corpus_2_classes.json -v ngrams -n 2
