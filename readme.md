@@ -290,7 +290,7 @@ We used the Cross Validation Grid Search to find the optimal hyperparameters[[11
 Example: For the following range of alpha `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}` and Tfidf vectorization method on training size of 1000 samples, the generalization curve of the validation set is shown in Figure [].
 
 <p align="center">
-  <img src="bbc/graphs/u-shaped-generalization.png" width="800"/>
+  <img src="bbc/graphs/extra_graphs/u-shaped-generalization.png" width="800"/>
 
 </p>
 <p align="center">
