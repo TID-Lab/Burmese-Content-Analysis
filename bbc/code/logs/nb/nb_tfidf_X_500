@@ -24,6 +24,9 @@ weighted avg       0.83      0.83      0.83       250
 2020-05-24 22:15:00,735 INFO     Grid NB Best Parameters: {'alpha': 0.2}
 2020-05-24 22:15:00,738 INFO     
 params mean_test_score
+"{'alpha': 0.001}" 0.782
+"{'alpha': 0.01}" 0.792
+"{'alpha': 0.1}" 0.794
 "{'alpha': 0.1}" 0.837
 "{'alpha': 0.2}" 0.842
 "{'alpha': 0.4}" 0.84

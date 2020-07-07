@@ -4,7 +4,7 @@ from os.path import isfile, join
 from collections import defaultdict
 
 
-log_dir = "/home/harshil/Harshil/gt/spring2020/research2/ml-evaluation-models/bbc/code/logs/nb"  
+log_dir = "/home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/bbc/code/logs/nb"  
 log_files = [f for f in listdir(log_dir) if isfile(join(log_dir, f))]
 def get_data(file_name, file_text, samples_per_class):
     lines = file_text.readlines()

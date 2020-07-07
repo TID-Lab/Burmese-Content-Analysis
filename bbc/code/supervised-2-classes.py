@@ -107,7 +107,7 @@ def load_json_file(file_path):
 
 
 if __name__ == "__main__":
-    dir_path = "/home/harshil/Harshil/gt/spring2020/research2/ml-evaluation-models/bbc"
+    dir_path = "/home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/bbc"
     CUSTOM_SEED=42
     np.random.seed(CUSTOM_SEED)
     try:
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     elif vectorizer_selection == "tfidf":
         logging.basicConfig(level=logging.DEBUG, filename=os.path.join(dir_path,"code/logs/{}_{}_{}".format(model, vectorizer_selection, str(X_path[5:-5]))), filemode="w", format="%(asctime)-15s %(levelname)-8s %(message)s")
         print("logs/{}_{}_{}".format(model, vectorizer_selection, str(X_path[5:-5])))
-    
+    logging.info("hello")    
     corpus = load_json_file(os.path.join(dir_path, corpus_path))
     X = load_json_file(os.path.join(dir_path, X_path))
     y = load_json_file(os.path.join(dir_path, y_path))
@@ -199,7 +199,7 @@ if __name__ == "__main__":
             }
 
     nb_grid_values = {
-            "alpha":(0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1)
+            "alpha":(0.001, 0.01, 0.1)
             }
 
     if model == "svm":
