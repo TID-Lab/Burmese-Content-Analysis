@@ -1,14 +1,3 @@
-# THIS README IS WORK IN PROGRESS.
-This is an ongoing project on applying NLP/ML methods on an under-resourced language (Burmese). The goal of the project is to detect hate-speech in Burmese language that can potentially threaten democratic processes like elections in Myanmar.
-
-# DATA COLLECTION
-- The directory contains code to aggregate data from Burmese Wikipedia, Burmese Bible, and other Burmese word list.
-- The repository also contains code for doing some cursory analysis of words aggregated from different sources.
-- Creates json dictionaries from raw text data
-- Crawls Burmese wikipedia pages to collect Burmese text.
-- Retrieves Burmese Bible data.
-
-
 # ML EVALUATION MODELS
 
 ## Introduction
@@ -207,6 +196,8 @@ We used supervised learning to create an Artificial Neural Network(ANN) to perfo
 
 Given a set of training data containing burmese BBC articles and their categories, design an efficient supervised learning model that predicts the category of the article based on learned patterns from the test dataset.
 
+We also trained several classifiers using different vectorization methods and varying training sizes: `{200, 1000, 2000, 10000, All samples}` with almost equal samples per class (proportionate to sample count in the original data). The reason for creating classifiers for different training sizes is to figure out the crossover point where the Burmese BERT model starts to outperform the traditional ML classifiers.
+
 #### Data
 
 We used the Corpus Crawler tool to collect Burmese news articles from the Myanmar BBC website[[7]](). We collected a total of 24,787 articles dating back to 2009. However, the Corpus Crawler tool did not extract information about the category of the article. Hence, we edited the Corpus Crawler's script to also extract article's category along with the text. We will be releasing the BBC burmese article text and category data for public use. The news articles were categorized into one of the following categories:
@@ -288,14 +279,55 @@ We used different strategies for vectorizing the input data before supplying tha
 Previous research has shown that N-gram language models perform well for Burmese segmentation tasks [[10]]. Following those results, we decided to explore how well n-grams vectorization approach along with an addtional Tfidf approach performs in Burmese classification task.
 
 
-#### Naive Bayes
+### Multinomial Naive Bayes
 
-#### 
+Naive Bayes ML models are widely used for text categorization problems because of the high computational efficiency achieved on high-dimensional problems [[12]](). We chose Multinomial NB (MNB) in particular, because of its proven high performance in NLP problems involving feature counts/fractional counts[[13]]().
+
+#### Hyperparameters
+
+We used the Cross Validation Grid Search to find the optimal hyperparameters[[11]](). The hyperparameters to fine-tune included the alpha value, which is the Laplace smoothing parameter. The range for the alpha value was selected using the standard practice to select optimal range based on the U-shaped generalization curve[[14]](). 
+
+Example: For the following range of alpha `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}` and Tfidf vectorization method on training size of 1000 samples, the generalization curve of the validation set is shown in Figure [].
+
+<p align="center">
+  <img src="bbc/graphs/u-shaped-generalization.png" width="800"/>
+
+</p>
+<p align="center">
+<em>Figure 2. Graph showing generalization error for different alpha values</em>
+</p>
+
+
+The graph follows an almost "U shaped curve" showing that the optimal value for alpha lies in the selected range at the minima. For the MNB classifier trained on 1000 samples with Tfidf vectorization method, the optimal alpha value occurs when the generalization error is at minimum i.e. the minima on the graph where alpha = 0.2. The ranges for each classifier were adjusted similarly until the fairly U-shaped generalization error curve was obtained. 
+
+The range of the alpha values tested were as follows: `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}`. The best alpha value differed for each MNB classifier trained of varying number of samples and different vectorization approach. The optimal alpha value for each case will be reported in the Results section.
+
+
+#### Results
+
 
 #### Support Vector Machine
 
+Support Vector Machines(SVM) usually outperform NB classifiers in text classification/categorization tasks; however, SVMs take extremely long time to find the optimal boundary for categorization purposes on high-dimensional problems such as this one. Training each SVM classifier using the entire training data for this problem took on average 3 hours on Georgia Tech PACE cluster with 12 nodes and 4 cores per node. SVMs did out perform MNB classifiers on larger training sets.  
 
-####
+#### Hyperparameters
+
+We used the Cross Validation Grid Search to find the optimal hyperparameters[[11]](). The hyperparameters to fine-tune included the C value (regularization parameter), gamma (kernel coefficient), and kernel type. The ranges for each hyperparameter were as follows:
+```
+C       : {0.01, 0.1, 1, 10, 100}
+Gamma   : {0.01, 0.1, 1, 10}
+Kernel  : {linear, rbf}
+```
+All numerical ranges were selected using the "U-shaped" generalization error curve. The polynomial kernel was left out because of the poor performance compared to the other two kernels revealed in the initial testing.
+
+
+#### Results
+
+#### Comparing SVM and MNB
+
+#### Discussion
+
+#### Conclusion
 
 ## This readme is work in  progress.
 
@@ -316,7 +348,10 @@ Proceedings of the Fourteenth International Conference on Artificial Intelligenc
 8) https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools
 9) https://github.com/HtooSayWah/Cyberbullying-System
 10) https://dl.acm.org/doi/abs/10.1145/2846095
-
+11) https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+12) https://link.springer.com/chapter/10.1007/978-3-540-30549-1_43
+13) https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
+14) Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. Deep learning. MIT press, 2016.
 
 
 
