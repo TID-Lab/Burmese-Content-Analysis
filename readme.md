@@ -287,10 +287,10 @@ Naive Bayes ML models are widely used for text categorization problems because o
 
 We used the Cross Validation Grid Search to find the optimal hyperparameters[[11]](). The hyperparameters to fine-tune included the alpha value, which is the Laplace smoothing parameter. The range for the alpha value was selected using the standard practice to select optimal range based on the U-shaped generalization curve[[14]](). 
 
-Example: For the following range of alpha `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}` and Tfidf vectorization method on training size of 1000 samples, the generalization curve of the validation set is shown in Figure [].
+Example: For the following range of alpha `{0.001, 0.01, 0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}` and Tfidf vectorization method on training size of 1000 samples, the generalization curve of the validation set is shown in Figure [].
 
 <p align="center">
-  <img src="bbc/graphs/extra_graphs/u-shaped-generalization.png" width="800"/>
+  <img src="bbc/graphs/extra_graphs/u_shaped_generalization.png" width="800"/>
 
 </p>
 <p align="center">
@@ -300,7 +300,7 @@ Example: For the following range of alpha `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}` an
 
 The graph follows an almost "U shaped curve" showing that the optimal value for alpha lies in the selected range at the minima. For the MNB classifier trained on 1000 samples with Tfidf vectorization method, the optimal alpha value occurs when the generalization error is at minimum i.e. the minima on the graph where alpha = 0.2. The ranges for each classifier were adjusted similarly until the fairly U-shaped generalization error curve was obtained. 
 
-The range of the alpha values tested were as follows: `{0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}`. The best alpha value differed for each MNB classifier trained of varying number of samples and different vectorization approach. The optimal alpha value for each case will be reported in the Results section.
+The range of the alpha values tested were as follows: `{0.001, 0.01, 0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}`. The best alpha value differed for each MNB classifier trained of varying number of samples and different vectorization approach. The optimal alpha value for each case will be reported in the Results section.
 
 
 #### Results
