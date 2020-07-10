@@ -57,6 +57,7 @@ def naive_bayes_clf(X_train, X_test, alpha, use_grid_search = False, grid_values
             print_metrics("Naive Bayes Classifier (Grid search)", y_test, predictions_NB)
             logging.info("Grid NB Best Parameters: {}".format(grid_clf.best_params_))
             logging.info("\n"+ pd.DataFrame.from_dict(grid_clf.cv_results_)[["params", "mean_test_score"]].to_csv(sep=' ', index=False))
+            save_model("naive_bayes_2_class_250", grid_clf)
 def svm_clf(X_train, X_test, C, gamma, use_grid_search = False, grid_values = {}):
     if not use_grid_search:
         svm_clf = svm.SVC(C=C, gamma=gamma)
@@ -199,7 +200,7 @@ if __name__ == "__main__":
             }
 
     nb_grid_values = {
-            "alpha":(0.001, 0.01, 0.1)
+            "alpha":(0.001, 0.01, 0.1, 0.2, 0.3,0.4)
             }
 
     if model == "svm":

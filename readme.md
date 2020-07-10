@@ -300,10 +300,30 @@ Example: For the following range of alpha `{0.001, 0.01, 0.1, 0.2, 0.4, 0.5, 0.7
 
 The graph follows an almost "U shaped curve" showing that the optimal value for alpha lies in the selected range at the minima. For the MNB classifier trained on 1000 samples with Tfidf vectorization method, the optimal alpha value occurs when the generalization error is at minimum i.e. the minima on the graph where alpha = 0.2. The ranges for each classifier were adjusted similarly until the fairly U-shaped generalization error curve was obtained. 
 
-The range of the alpha values tested were as follows: `{0.001, 0.01, 0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}`. The best alpha value differed for each MNB classifier trained of varying number of samples and different vectorization approach. The optimal alpha value for each case will be reported in the Results section.
+The range of the alpha values tested were as follows: `{0.001, 0.01, 0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1}`. The best alpha value differed for each MNB classifier trained of varying number of samples and different vectorization approach. The optimal values in most cases were 0.2 and 0.4. 
 
 
 #### Results
+
+MNB classifier yielded the best results overall when all training samples were used. The vectorization scheme did not play a huge role in improving the performance of the model trained on larger training sets. For medium sized training sets (4000-12000 samples in this case), bigrams and a combination of bigrams and trigrams yielded the best results. The trends can be observed in the following figures.
+
+<p align ="center">
+  <img src="bbc/graphs/extra_graphs/nb_acc_pre_combined.png" width="800"/>
+</p>
+<p align="center">
+ <img src="bbc/graphs/nb/nb_recall_avg.png" width="400"/>
+</p>
+<p align="center">
+<em>Figure []. Graphs showing the trend in average Accuracy, Precision, and Recall for different vectorization methods with increasing size of the training set. The X-axis shows the approximate number of training samples per class. </em>
+</p>
+
+#### Observations
+
+We see that, generally, Ngrams approach outperforms Tfidf in MNB classifier for most sets of training sample sizes; however, Tfidf outperforms Ngrams either when all samples are used or the fewest samples are used i.e the left and right ends of the trends shown in Figure []. Tfidf assigns higher scores to terms that are used more rarely in the dataset, and often the ones which are more deterministic of the category the sample belongs to [[15]](). We observed that terms like တကသ, ခဏအက, ရန်ကုန်မြို့, ရစ, ကယ, မသ, တယ, အသက, ဆယ, တက, and ကန were assigned much higher scores compared to other terms. Many of these terms, when used in the right context, help the classifier in determining the category of the given article. For example, the word ရန်ကုန်မြို့(Yangon City), appears in 7 documents in total out of 200 randomly chosed training samples. When the model was tested on 47 unseen articles containing the word ရန်ကုန်မြို့, it yielded an accuracy score of 80.85%. This shows how few deterministic terms that appear consistently in the training set can improve the accuracy of the classifier even on smaller datasets when using Tfidf approach.
+
+For medium sample sizes, the trends show that n-grams approach yields much better outcomes. This indicates that with increasing sample sizes, quantitative information on word combinations helps the classifier make better decisions than just using the Tfidf scores. This means that with increasing training size, the presence of deterministic terms across the training set increases, reducing/equalizing the overall Tfidf scores across several deterministic terms. At this point, the quantitative information on word combinationds derived from N-grams helps the classifier in better categorizing the BBC articles.
+
+Also, the average accuracy, precision, and recall are fairly in sync with another indicating that the classifier is equally good at categorizing articles belonging to each class i.e. Burma and World in this case.  
 
 
 #### Support Vector Machine
@@ -313,27 +333,67 @@ Support Vector Machines(SVM) usually outperform NB classifiers in text classific
 #### Hyperparameters
 
 We used the Cross Validation Grid Search to find the optimal hyperparameters[[11]](). The hyperparameters to fine-tune included the C value (regularization parameter), gamma (kernel coefficient), and kernel type. The ranges for each hyperparameter were as follows:
-```
+```python
 C       : {0.01, 0.1, 1, 10, 100}
 Gamma   : {0.01, 0.1, 1, 10}
 Kernel  : {linear, rbf}
+#The rbf kernel is the term used by scikit learn for Gaussian kernels.
 ```
-All numerical ranges were selected using the "U-shaped" generalization error curve. The polynomial kernel was left out because of the poor performance compared to the other two kernels revealed in the initial testing.
+
+All numerical ranges were selected using the "U-shaped" generalization error curve method. The polynomial kernel was left out because of the poor performance compared to the other two kernels revealed in the initial testing.
 
 
 #### Results
 
+The common hyperparameters that appeared in most of the SVM experiments with the combination of different training sizes and vectorization methods were as follows:
+
+```python
+C       : 10
+Gamma   : 1
+Kernerl : rbf 
+```
+As seen in Figure [], Tfidf seems to consistently outperform the Ngrams approach for almost all training sizes. 
+
+<p align ="center">
+  <img src="bbc/graphs/extra_graphs/svm_acc_pre_combined.png" width="800"/>
+</p>
+<p align="center">
+ <img src="bbc/graphs/svm/svm_recall_avg.png" width="400"/>
+</p>
+<p align="center">
+<em>Figure []. Graphs showing the trend in average Accuracy, Precision, and Recall for different vectorization methods with increasing size of the training set. The X-axis shows the approximate number of training samples per class. </em>
+</p>
+
+#### Observations
+
+As seen in the MNB case where Tfidf yields exceptionally high accuracy, precision and average for really small training sets, the same can be evidenced in the SVM classifiers with Tfidf yielding values higher than 85% for all three metrics on average. This means that for smaller training sets, Tfidf along with the optimal hyperparameter values helps in creating fairly separable data in a multi-dimensional space resulting in higher performance than that achieved by SVM on Ngrams with optimal hyperparameters on smaller training sets.
+
+For training sets with samples more than 1000, Tfidf with optimal hyperparameters still seems to outperform Ngrams, however the difference is not very significant in this case. The average accuracies, precisions, and recalls are also in sync with each other for each training set size and vectorization approach. This indicates that the SVM classifier is equally good at predicting both Burma and World categories. 
+
+
 #### Comparing SVM and MNB
 
-#### Discussion
+Based on the individual performances of the classifiers as shows in previous sections, I decided to compare the MNB Ngrams vectorization and optimal hyperparameters with SVM Tfidf vectorization and optimal hyperparameters. For smaller training sets, SVM Tfidf with optimal hyperparameters performs better than its counterpart. This is largely because of the finding mentioned earlier about the exceptionally high performance of Tfidf on very small training sets in this classification problem. Overall, SVM outperforms MNB with a huge margin. This can be attributed to the fact that MNB makes a huge and often naive assumption about the independence of variables in calculating the probability of a sample belonging to a particular class. This provides significant time and computational advantage to MNB over other classifiers at the cost of accuracy to some extent. SVM is devoid of such huge assumptions because of which, it computionally extremely expensive. Doing a grid search for optimal hyperparameters for SVM with all training samples took approximately 3 hours on Georgia Tech PACE cluster with 12 nodes and 4 cores per node. However, SVMs yielded consistent and higher performance scores than the MNB classifier.
+
+<p align ="center">
+  <img src="bbc/graphs/extra_graphs/svm_nb_acc_pre.png" width="800"/>
+</p>
+<p align="center">
+ <img src="bbc/graphs/overall/svm_nb_recall.png" width="400"/>
+</p>
+<p align="center">
+<em>Figure []. Graphs comparing the trend in average Accuracy, Precision, and Recall for different vectorization methods with increasing size of the training set between SVM and MNB classifiers. The X-axis shows the approximate number of training samples per class. </em>
+</p>
+
+#### Future work
+
+The main goal of this project is to analyze the performances of traditional supervised learning models on the Burmese Parts of Speech data and the compiled Burmese BBC news articles data. This analysis will be used as a reference point to compare the performance of the modern Burmese BERT model developed by our lab. The research goal for this comparison between traditional ML algorithms with novel BERT model is to identify the advantages of using Burmese BERT model for various NLP classification tasks like hate-speech detection. We anticipate that there is a crossover point when the novel Burmese BERT model starts to outperform classical ML algorithms on various NLP problems with consistently increasing sizes of the training sets.
+
 
 #### Conclusion
 
-## This readme is work in  progress.
+In this report, we dived deep into the design decisions and practices used to create each classifier for both problems of PoS tagging and BBC news articles classification. We identified the importance of context and the inability of ANNs to learn context in the PoS tagging task. We presented the variations in the performance of SVMs and MNBs on varying training set sizes and vectorization methods. We discovered and justified the exceptionally high performance on unseen data gained while using Tfidf approach on both SVM and MNB classifiers with optimal hyperparameters trained on very small trainings sets. Lastly, we also compared SVM with MNB to gain an idea of the advantages and the disadvantages of using one over the other. 
 
-
-
-for bbc, remember the comparison is made for different training sizes.
 
 References:
 
@@ -352,6 +412,7 @@ Proceedings of the Fourteenth International Conference on Artificial Intelligenc
 12) https://link.springer.com/chapter/10.1007/978-3-540-30549-1_43
 13) https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
 14) Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. Deep learning. MIT press, 2016.
+15) Aizawa, Akiko. "An information-theoretic perspective of tf–idf measures." Information Processing & Management 39.1 (2003): 45-65.
 
 
 
