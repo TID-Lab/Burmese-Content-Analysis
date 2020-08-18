@@ -1,0 +1,20 @@
+#This is an example PBS script to run a parallel python program
+#PBS -N ct_clf_training            # job name
+#PBS -l nodes=12:ppn=4       # number of nodes and cores per node required
+#PBS -l mem=8GB
+#PBS -l walltime=20:00:00      # duration of the job (ex: 15 min)
+#PBS -q coc             # queue name (where job is submitted)
+#PBS -k oe                  # combine output and error messages into 1 file
+#PBS -o python.out      # output file name
+#PBS -m abe                 # event notification, set to email on start, end, or fail
+
+                                    # computations start here
+module load anaconda3/2019.10       # loads python environment (anaconda)
+
+python supervised-2-classes.py -m svm -x X.json -y y.json -c X.json -v ngrams -n 1 &&
+python supervised-2-classes.py -m svm -x X.json -y y.json -c X.json -v ngrams -n 2 &&
+python supervised-2-classes.py -m svm -x X.json -y y.json -c X.json -v tfidf
+
+
+
+

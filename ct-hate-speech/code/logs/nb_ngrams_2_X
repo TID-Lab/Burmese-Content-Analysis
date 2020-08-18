@@ -1,0 +1,180 @@
+2020-08-17 22:03:21,215 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-17 22:03:21,321 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-17 22:03:21,321 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-17 22:03:21,324 INFO     Data loaded
+2020-08-17 22:03:21,324 INFO     Num data points: 5758
+2020-08-17 22:03:21,324 INFO     Training data size : 4606
+2020-08-17 22:03:21,324 INFO     Testing data size: 1152
+2020-08-17 22:03:21,326 INFO     Y encoded
+2020-08-17 22:03:21,326 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-08-17 22:03:22,619 INFO     Feature names : ['000 100', '000 600', '000 chinese', '000 company', '000 ks', '000 kyats', '000 mmk', '000 nego', '000 spa', '000 waiter', '000 ကင', '000 အထက', '09 2540', '09 4200', '09 443427711', '09 97', '09443427711 အမ', '100 000', '100 သည', '1097953863567408 eng'] ...
+2020-08-17 22:03:22,619 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-17 22:03:22,619 INFO     Vectorized X test dimensions: (1152, 5000)
+2020-08-17 22:03:22,638 INFO     After resampling: 
+ 	 X data size  : (358, 5000) y data size : (358,)
+2020-08-17 22:03:22,710 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:22,715 INFO     
+              precision    recall  f1-score   support
+
+           0       0.99      0.46      0.63      1112
+           1       0.06      0.90      0.11        40
+
+    accuracy                           0.47      1152
+   macro avg       0.52      0.68      0.37      1152
+weighted avg       0.96      0.47      0.61      1152
+
+2020-08-17 22:03:22,715 INFO     Grid NB Best Parameters: {'alpha': 0.4}
+2020-08-17 22:03:22,718 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.35485133020344284
+"{'alpha': 0.01}" 0.34643974960876367
+"{'alpha': 0.1}" 0.4078638497652582
+"{'alpha': 0.2}" 0.42460876369327066
+"{'alpha': 0.3}" 0.4301643192488263
+"{'alpha': 0.4}" 0.4357589984350548
+
+2020-08-17 22:03:22,737 INFO     After resampling: 
+ 	 X data size  : (458, 5000) y data size : (458,)
+2020-08-17 22:03:22,808 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:22,812 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.70      0.81      1112
+           1       0.05      0.40      0.08        40
+
+    accuracy                           0.69      1152
+   macro avg       0.51      0.55      0.45      1152
+weighted avg       0.94      0.69      0.79      1152
+
+2020-08-17 22:03:22,812 INFO     Grid NB Best Parameters: {'alpha': 0.3}
+2020-08-17 22:03:22,815 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.7336598184424272
+"{'alpha': 0.01}" 0.7292642140468228
+"{'alpha': 0.1}" 0.7773053033922599
+"{'alpha': 0.2}" 0.788222646918299
+"{'alpha': 0.3}" 0.7925704730052555
+"{'alpha': 0.4}" 0.7925704730052555
+
+2020-08-17 22:03:22,835 INFO     After resampling: 
+ 	 X data size  : (658, 5000) y data size : (658,)
+2020-08-17 22:03:22,906 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:22,910 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.76      0.85      1112
+           1       0.05      0.33      0.08        40
+
+    accuracy                           0.74      1152
+   macro avg       0.51      0.54      0.47      1152
+weighted avg       0.94      0.74      0.82      1152
+
+2020-08-17 22:03:22,910 INFO     Grid NB Best Parameters: {'alpha': 0.2}
+2020-08-17 22:03:22,913 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.8145963451306963
+"{'alpha': 0.01}" 0.8115544760582928
+"{'alpha': 0.1}" 0.8419500346981262
+"{'alpha': 0.2}" 0.852590793430488
+"{'alpha': 0.3}" 0.8388850335415221
+"{'alpha': 0.4}" 0.8404001850566736
+
+2020-08-17 22:03:22,933 INFO     After resampling: 
+ 	 X data size  : (1058, 5000) y data size : (1058,)
+2020-08-17 22:03:23,011 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:23,016 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.69      0.80      1112
+           1       0.04      0.35      0.07        40
+
+    accuracy                           0.67      1152
+   macro avg       0.50      0.52      0.44      1152
+weighted avg       0.93      0.67      0.78      1152
+
+2020-08-17 22:03:23,016 INFO     Grid NB Best Parameters: {'alpha': 0.001}
+2020-08-17 22:03:23,019 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.8505409997317356
+"{'alpha': 0.01}" 0.8429848877760888
+"{'alpha': 0.1}" 0.8458195475274971
+"{'alpha': 0.2}" 0.8496020745774837
+"{'alpha': 0.3}" 0.8477063399803273
+"{'alpha': 0.4}" 0.8477063399803273
+
+2020-08-17 22:03:23,039 INFO     After resampling: 
+ 	 X data size  : (1858, 5000) y data size : (1858,)
+2020-08-17 22:03:23,119 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:23,123 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.77      0.86      1112
+           1       0.03      0.23      0.06        40
+
+    accuracy                           0.75      1152
+   macro avg       0.50      0.50      0.46      1152
+weighted avg       0.93      0.75      0.83      1152
+
+2020-08-17 22:03:23,123 INFO     Grid NB Best Parameters: {'alpha': 0.4}
+2020-08-17 22:03:23,126 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.8761310610671537
+"{'alpha': 0.01}" 0.8761310610671537
+"{'alpha': 0.1}" 0.8896095991652899
+"{'alpha': 0.2}" 0.9047010404892328
+"{'alpha': 0.3}" 0.9144016462336608
+"{'alpha': 0.4}" 0.9160203460568646
+
+2020-08-17 22:03:23,146 INFO     After resampling: 
+ 	 X data size  : (3458, 5000) y data size : (3458,)
+2020-08-17 22:03:23,237 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:23,241 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      1112
+           1       0.17      0.15      0.16        40
+
+    accuracy                           0.94      1152
+   macro avg       0.57      0.56      0.56      1152
+weighted avg       0.94      0.94      0.94      1152
+
+2020-08-17 22:03:23,242 INFO     Grid NB Best Parameters: {'alpha': 0.001}
+2020-08-17 22:03:23,244 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.9198861497536452
+"{'alpha': 0.01}" 0.8987632065449253
+"{'alpha': 0.1}" 0.8585375136979998
+"{'alpha': 0.2}" 0.8484081041968162
+"{'alpha': 0.3}" 0.847249525275424
+"{'alpha': 0.4}" 0.8530344729511559
+
+2020-08-17 22:03:23,264 INFO     After resampling: 
+ 	 X data size  : (4528, 5000) y data size : (4528,)
+2020-08-17 22:03:23,370 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-17 22:03:23,374 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98      1112
+           1       0.29      0.17      0.22        40
+
+    accuracy                           0.96      1152
+   macro avg       0.63      0.58      0.60      1152
+weighted avg       0.95      0.96      0.95      1152
+
+2020-08-17 22:03:23,374 INFO     Grid NB Best Parameters: {'alpha': 0.001}
+2020-08-17 22:03:23,377 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.9419121144487944
+"{'alpha': 0.01}" 0.9249065164099374
+"{'alpha': 0.1}" 0.8307821399387754
+"{'alpha': 0.2}" 0.8009515446440549
+"{'alpha': 0.3}" 0.783717146585684
+"{'alpha': 0.4}" 0.7797390021099362
+
+2020-08-17 22:03:23,440 DEBUG    update_title_pos
+2020-08-17 22:03:23,450 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:03:23,461 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:03:23,484 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:03:23,521 DEBUG    update_title_pos
+2020-08-17 22:03:23,578 DEBUG    update_title_pos
+2020-08-17 22:03:23,639 DEBUG    update_title_pos

@@ -1,0 +1,190 @@
+2020-08-17 22:09:44,008 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-17 22:09:44,094 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-17 22:09:44,095 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-17 22:09:44,097 INFO     Data loaded
+2020-08-17 22:09:44,097 INFO     Num data points: 5758
+2020-08-17 22:09:44,097 INFO     Training data size : 4606
+2020-08-17 22:09:44,097 INFO     Testing data size: 1152
+2020-08-17 22:09:44,098 INFO     Y encoded
+2020-08-17 22:09:44,098 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-08-17 22:09:45,058 INFO     Feature names : ['000 100', '000 600', '000 chinese', '000 company', '000 ks', '000 kyats', '000 mmk', '000 nego', '000 spa', '000 waiter', '000 ကင', '000 အထက', '09 2540', '09 4200', '09 443427711', '09 97', '09443427711 အမ', '100 000', '100 သည', '1097953863567408 eng'] ...
+2020-08-17 22:09:45,058 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-17 22:09:45,058 INFO     Vectorized X test dimensions: (1152, 5000)
+2020-08-17 22:09:45,074 INFO     After resampling: 
+ 	 X data size  : (358, 5000) y data size : (358,)
+2020-08-17 22:09:45,843 INFO     classifier: SVM Classifier (Grid search)
+2020-08-17 22:09:45,846 INFO     
+              precision    recall  f1-score   support
+
+           0       0.92      0.20      0.32      1112
+           1       0.02      0.50      0.04        40
+
+    accuracy                           0.21      1152
+   macro avg       0.47      0.35      0.18      1152
+weighted avg       0.88      0.21      0.31      1152
+
+2020-08-17 22:09:45,846 INFO     Grid SVM Best Parameters: {'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}
+2020-08-17 22:09:45,884 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.5167840375586854
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5167840375586854
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.5753129890453834
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.5753129890453834
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.5753129890453834
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.6813380281690141
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.5753129890453834
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5167840375586854
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7400234741784038
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.6172535211267606
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7959311424100156
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.681377151799687
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.8267996870109547
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7959311424100156
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.6897496087636933
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7595070422535211
+
+2020-08-17 22:09:45,914 INFO     After resampling: 
+ 	 X data size  : (458, 5000) y data size : (458,)
+2020-08-17 22:09:46,693 INFO     classifier: SVM Classifier (Grid search)
+2020-08-17 22:09:46,697 INFO     
+              precision    recall  f1-score   support
+
+           0       0.92      0.20      0.32      1112
+           1       0.02      0.50      0.04        40
+
+    accuracy                           0.21      1152
+   macro avg       0.47      0.35      0.18      1152
+weighted avg       0.88      0.21      0.31      1152
+
+2020-08-17 22:09:46,697 INFO     Grid SVM Best Parameters: {'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}
+2020-08-17 22:09:46,699 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.6048017200191114
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.6330864787386526
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.6048017200191114
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.5960582895365504
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.6048017200191114
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.5960582895365504
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.6048017200191114
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5960582895365504
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.6680602006688963
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.6680602006688963
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.6680602006688963
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7509555661729574
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.6680602006688963
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.6004300047778309
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7968227424749164
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7008361204013378
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8405160057333969
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7509794553272815
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.8646201624462494
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8405160057333969
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.7575250836120402
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.8098901098901099
+
+2020-08-17 22:09:46,714 INFO     After resampling: 
+ 	 X data size  : (658, 5000) y data size : (658,)
+2020-08-17 22:09:47,605 INFO     classifier: SVM Classifier (Grid search)
+2020-08-17 22:09:47,609 INFO     
+              precision    recall  f1-score   support
+
+           0       0.92      0.20      0.32      1112
+           1       0.02      0.50      0.04        40
+
+    accuracy                           0.21      1152
+   macro avg       0.47      0.35      0.18      1152
+weighted avg       0.88      0.21      0.31      1152
+
+2020-08-17 22:09:47,609 INFO     Grid SVM Best Parameters: {'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}
+2020-08-17 22:09:47,611 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.7309854267869536
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.7446333564654175
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.7309854267869536
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.7188410825815407
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.7309854267869536
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7188410825815407
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.7309854267869536
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7188410825815407
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.7689683090446449
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.7689683090446449
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.7689683090446449
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8266828591256072
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.7689683090446449
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7218829516539441
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8586051353226927
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7917765440666205
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8890122600046263
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.8282095766828592
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.9057714550080963
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.8890122600046263
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.8312514457552626
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.8692227619708536
+
+2020-08-17 22:09:47,986 DEBUG    update_title_pos
+2020-08-17 22:09:47,995 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:09:48,004 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:09:48,020 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-17 22:09:48,044 DEBUG    update_title_pos
+2020-08-17 22:09:48,154 DEBUG    update_title_pos
+2020-08-17 22:09:48,291 DEBUG    update_title_pos
