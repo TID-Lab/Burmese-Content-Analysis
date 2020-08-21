@@ -75,18 +75,17 @@ class Segmenter():
 
 
     def sanitize_string(self, input_string=None):
-        if type(input_string) is not str:
-            input_string = str(input_string, "utf8")
-        # print(input_string)
-        # if mm_detector.is_zawgyi(input_string=input_string):
-            # input_string = mm_converter.zawgyi_to_unicode(input_string=input_string)
-            # print input_string
-            # print(input_string)
+        if type(input_string) is not unicode:
+            input_string = unicode(input_string, "utf8")
+
+        if mm_detector.is_zawgyi(input_string=input_string):
+            input_string = mm_converter.zawgyi_to_unicode(input_string=input_string)
+
         input_string = mm_normalizer.normalize(input_string=input_string)
 
         ## remove spaces between myanmar words
         ## use positive lookahead to matches \s that is followed by a [\u1000-\u104F], without making the [\u1000-\u104F] part of the match
-        input_string = re.sub(r"([\u1000-\u104F])\s+(?=[\u1000-\u104F])", r"\1", input_string)
+        input_string = re.sub(ur"([\u1000-\u104F])\s+(?=[\u1000-\u104F])", r"\1", input_string)
 
         return input_string
 
@@ -109,11 +108,10 @@ class Segmenter():
 
 
     def segment(self, input_string):
-        # print(input_string)
         input_string = self.sanitize_string(input_string=input_string)
-        # print(input_string)
         segmented_words = []
         self.segmented_matches = []
+
         if len(input_string) > 0:
             for key in self.words_array:
                 if key in input_string:
@@ -126,14 +124,14 @@ class Segmenter():
 
                         ## also need to check previous string for VIRAMA Killer
                         previous_string = input_string[match_start_position-1:]
-                        if re.search(r"^\u1039", previous_string):
+                        if re.search(ur"^\u1039", previous_string):
                             continue
 
                         temp_string = input_string[match_start_position:]
                         is_valid_syllablebreak = mm_syllablebreak.is_valid_syllablebreak(temp_string, length)
 
                         if is_valid_syllablebreak:
-                            to_replace = "\uFFF0" * length
+                            to_replace = u"\uFFF0" * length
                             ## replacing string at index
                             input_string = input_string[:match_start_position] + to_replace + input_string[match_start_position + length:]
 
@@ -147,18 +145,18 @@ class Segmenter():
             tokens = mm_tokenizer.get_tokens(input_string=input_string)
 
             for token in tokens:
-                if "\uFFF0" in token:
+                if u"\uFFF0" in token:
                     ## if non \u00D2 in the string
                     ## split non \u00D2 and \u00D2
-                    if re.search(r"[^\uFFF0]", token):
+                    if re.search(ur"[^\uFFF0]", token):
                         ## add space between non \ufff0 and \ufff0
-                        token = re.sub(r"([^\uFFF0])(\uFFF0)", r"\1 \2", token)
-                        token = re.sub(r"(\uFFF0)([^\uFFF0])", r"\1 \2", token)
+                        token = re.sub(ur"([^\uFFF0])(\uFFF0)", ur"\1 \2", token)
+                        token = re.sub(ur"(\uFFF0)([^\uFFF0])", ur"\1 \2", token)
 
                         inside_tokens = mm_tokenizer.get_tokens(input_string=token)
 
                         for inside_token in inside_tokens:
-                            if "\uFFF0" in inside_token:
+                            if u"\uFFF0" in inside_token:
                                 ordered_words = self.put_back_segmented_matches(inside_token)
                                 segmented_words.extend(ordered_words)
                             else:

@@ -5,7 +5,8 @@ alt-treebank/data
 bbc/data
 alt-treebank/classifiers
 bbc/classifiers
-
+*.pyc
+ct-hate-speech/code/logs
 data-collection/temp/
 data-collection/data/bible/
 data-collection/data/corpus_crawl/

@@ -22,78 +22,78 @@ import wa_zero_fixer
 ## it also fixes bugs from conversation from zawgyi to unicode
 
 def normalize(input_string=None):
-    if type(input_string) is not str:
-        input_string = str(input_string, "utf8")
+    if type(input_string) is not unicode:
+        input_string = unicode(input_string, "utf8")
 
     ## reorder dependent vowel and dependent consonant signs
-    input_string = re.sub(r"([\u102B-\u1035]+)([\u103B-\u103E]+)", r"\2\1", input_string);
+    input_string = re.sub(ur"([\u102B-\u1035]+)([\u103B-\u103E]+)", r"\2\1", input_string);
 
     # ## reordering myanmar storage order
-    input_string = re.sub(r"([\u102D\u102E\u1032]{0,})([\u103B-\u103E]{0,})([\u102F\u1030]{0,})([\u1036\u1037\u1038]{0,})([\u102D\u102E\u1032]{0,})", r"\2\1\5\3\4", input_string)
-    input_string = re.sub(r"(^|[^\u1000-\u1021\u103B-\u103E])(\u1031)([\u1000-\u1021])((?:\u1039[\u1000-\u1021])?)([\u103B-\u103E]{0,})", r"\1\3\4\5\2", input_string)
+    input_string = re.sub(ur"([\u102D\u102E\u1032]{0,})([\u103B-\u103E]{0,})([\u102F\u1030]{0,})([\u1036\u1037\u1038]{0,})([\u102D\u102E\u1032]{0,})", r"\2\1\5\3\4", input_string)
+    input_string = re.sub(ur"(^|[^\u1000-\u1021\u103B-\u103E])(\u1031)([\u1000-\u1021])((?:\u1039[\u1000-\u1021])?)([\u103B-\u103E]{0,})", r"\1\3\4\5\2", input_string)
 
     ## for aukmyit and SIGN AA
-    input_string = re.sub(r"\u1037\u102C", "\u102C\u1037", input_string)
+    input_string = re.sub(ur"\u1037\u102C", u"\u102C\u1037", input_string)
 
 	## For Latest Myanmar 3
-    input_string = re.sub(r"\u103A\u1037", "\u1037\u103A", input_string)
-    input_string = re.sub(r"\u1036\u102F", "\u102F\u1036", input_string)
+    input_string = re.sub(ur"\u103A\u1037", u"\u1037\u103A", input_string)
+    input_string = re.sub(ur"\u1036\u102F", u"\u102F\u1036", input_string)
 
     ## remove zero width space and zero width non-joiner
-    input_string = re.sub(r"[\u200B\u200C\u202C\u00A0]", "", input_string)
+    input_string = re.sub(ur"[\u200B\u200C\u202C\u00A0]", "", input_string)
 
 	## reorder Ya pint and Ha htoe
-    input_string = re.sub(r"\u103E\u103B", "\u103B\u103E", input_string)
+    input_string = re.sub(ur"\u103E\u103B", u"\u103B\u103E", input_string)
 
     ## remove duplicate dependent characters
-    input_string = re.sub(r"([\u102B-\u103E])\1+", r"\1", input_string)
+    input_string = re.sub(ur"([\u102B-\u103E])\1+", r"\1", input_string)
 
     ## these duplicates based on document frequency errors
     ## remove double or more SIGN MEDIAL WA and HA
-    input_string = re.sub(r"(\u103D\u103E)+", "\u103D\u103E", input_string)
+    input_string = re.sub(ur"(\u103D\u103E)+", u"\u103D\u103E", input_string)
 
     ## remove double or more VOWEL SIGN U and ANUSVARA
-    input_string = re.sub(r"(\u102F\u1036)+", "\u102F\u1036", input_string)
+    input_string = re.sub(ur"(\u102F\u1036)+", u"\u102F\u1036", input_string)
 
     ## remove double or more SIGN 1 and SIGN U
-    input_string = re.sub(r"(\u102D\u102F)+", "\u102D\u102F", input_string)
+    input_string = re.sub(ur"(\u102D\u102F)+", u"\u102D\u102F", input_string)
 
     ## fixed wrong spelling
-    input_string = re.sub(r"([\\u102D\u102E])\\u1030", r"\\1\\u102F", input_string)
+    input_string = re.sub(ur"([\u102D\u102E])\u1030", ur"\1\u102F", input_string)
 
     ## For the case of ဖံွ့ဖြိုး
-    input_string = re.sub(r"([\u1000-\u1021])(\u1036)(\u103D)(\u1037)", r"\1\3\2\4", input_string)
+    input_string = re.sub(ur"([\u1000-\u1021])(\u1036)(\u103D)(\u1037)", r"\1\3\2\4", input_string)
 
     ## For the case of အိနိ္ဒယ
-    input_string = re.sub(r"([\u1000-\u1021])(\u102D)(\u1039)([\u1000-\u1021])", r"\1\3\4\2", input_string)
-    input_string = re.sub(r"([\u1000-\u1021])(\u1036)(\u103E)", r"\1\3\2", input_string)
+    input_string = re.sub(ur"([\u1000-\u1021])(\u102D)(\u1039)([\u1000-\u1021])", r"\1\3\4\2", input_string)
+    input_string = re.sub(ur"([\u1000-\u1021])(\u1036)(\u103E)", r"\1\3\2", input_string)
 
     input_string = wa_zero_fixer.fix(input_string)
 
     ## seven and ra
-    input_string = re.sub(r"(\u1047)(?=[\u1000-\u101C\u101E-\u102A\u102C\u102E-\u103F\u104C-\u109F\u0020])", "\u101B", input_string)
-    input_string = re.sub(r"\u1031\u1047", "\u1031\u101B", input_string)
+    input_string = re.sub(ur"(\u1047)(?=[\u1000-\u101C\u101E-\u102A\u102C\u102E-\u103F\u104C-\u109F\u0020])", u"\u101B", input_string)
+    input_string = re.sub(ur"\u1031\u1047", u"\u1031\u101B", input_string)
 
     ## reorder Sign U and auk myint
-    input_string = re.sub(r"\u1037\u102F", "\u102F\u1037", input_string)
+    input_string = re.sub(ur"\u1037\u102F", u"\u102F\u1037", input_string)
 
     ## reorder Sign Wa and  ANUSVARA
-    input_string = re.sub(r"\u1036\u103D", "\u103D\u1036", input_string)
+    input_string = re.sub(ur"\u1036\u103D", u"\u103D\u1036", input_string)
 
     ## reorder for သင်္ဘော
-    input_string = re.sub(r"(\u1004)(\u1031)(\u103A)(\u1039)([\u1000-\u1021])", r"\1\3\4\5\2", input_string)
+    input_string = re.sub(ur"(\u1004)(\u1031)(\u103A)(\u1039)([\u1000-\u1021])", r"\1\3\4\5\2", input_string)
 
     ## type error
-    input_string = re.sub(r"(\u102D)(\u103A)+", r"\1", input_string)
+    input_string = re.sub(ur"(\u102D)(\u103A)+", r"\1", input_string)
 
     ## fix nya lay that and Sign U
-    input_string = re.sub(r"\u1025\u103A", "\u1009\u103A", input_string)
+    input_string = re.sub(ur"\u1025\u103A", u"\u1009\u103A", input_string)
 
     ## Type Error (reorder)
-    input_string = re.sub(r"([\u1000-\u1021])(\u1031)(\u103D)", r"\1\3\2", input_string)
+    input_string = re.sub(ur"([\u1000-\u1021])(\u1031)(\u103D)", r"\1\3\2", input_string)
 
     ## Type Error (reorder)
-    input_string = re.sub(r"([\u1000-\u1021])(\u1031)(\u103E)(\u103B)", r"\1\3\4\2", input_string)
+    input_string = re.sub(ur"([\u1000-\u1021])(\u1031)(\u103E)(\u103B)", r"\1\3\4\2", input_string)
 
     return input_string
 
@@ -133,24 +133,24 @@ if __name__ == "__main__":
     input_string22 = "အိနိ္ဒယ"
     input_string = "အိနိ္ဒယ"
 
-    print(normalize(input_string=input_string))
-    print(normalize(input_string=input_string1))
-    print(normalize(input_string=input_string2))
-    print(normalize(input_string=input_string3))
-    print(normalize(input_string=input_string4))
-    print(normalize(input_string=input_string5))
-    print(normalize(input_string=input_string6))
-    print(normalize(input_string=input_string7))
-    print(normalize(input_string=input_string8))
-    print(normalize(input_string=input_string9))
-    print(normalize(input_string=input_string10))
-    print(normalize(input_string=input_string11))
-    print(normalize(input_string=input_string12))
-    print(normalize(input_string=input_string13))
-    print(normalize(input_string=input_string14))
-    print(normalize(input_string=input_string15))
-    print(normalize(input_string=input_string16))
-    print(normalize(input_string=input_string17))
-    print(normalize(input_string=input_string18))
-    print(normalize(input_string=input_string19))
-    print(normalize(input_string=input_string20))
+    print normalize(input_string=input_string)
+    print normalize(input_string=input_string1)
+    print normalize(input_string=input_string2)
+    print normalize(input_string=input_string3)
+    print normalize(input_string=input_string4)
+    print normalize(input_string=input_string5)
+    print normalize(input_string=input_string6)
+    print normalize(input_string=input_string7)
+    print normalize(input_string=input_string8)
+    print normalize(input_string=input_string9)
+    print normalize(input_string=input_string10)
+    print normalize(input_string=input_string11)
+    print normalize(input_string=input_string12)
+    print normalize(input_string=input_string13)
+    print normalize(input_string=input_string14)
+    print normalize(input_string=input_string15)
+    print normalize(input_string=input_string16)
+    print normalize(input_string=input_string17)
+    print normalize(input_string=input_string18)
+    print normalize(input_string=input_string19)
+    print normalize(input_string=input_string20)

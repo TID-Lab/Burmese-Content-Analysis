@@ -1,0 +1,24 @@
+unicode_segmented_filtered.json (after removing posts with no text content, no stop words)
+
+Yes	: 225
+No	: 5533
+
+Total	: 5758
+
+unicode_segmented_cleaned_filtered.json (after removing posts with no text content, no stop words, no non-burmese text)
+
+Yes	: 222
+No	: 5424
+
+Total	: 5646
+
+Violence threat: 
+Counter({'No': 3627, '': 1998, 'Yes': 12, 'Maybe': 9})
+
+Influential Speaker: 
+Counter({'No': 3499, '': 2000, 'Yes': 99, 'Maybe': 48})
+
+Likelihood that someone will follow threat: 
+Counter({'No': 3594, '': 2005, 'Yes': 24, 'Maybe': 23})
+
+[1.0, 0.6336996336996337, 0.3657505285412262, 0.1981672394043528, 0.10340705319    784818, 0.05285670638557898, 0.039834215979737506] 
