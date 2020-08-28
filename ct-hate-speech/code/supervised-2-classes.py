@@ -141,17 +141,8 @@ def rf_bagging(X_train, X_test, y_train, y_test):
     bstlfy=BaggingClassifier(base_estimator=clf_stump,n_estimators=max_n_ests)
     bstlfy=bstlfy.fit(X_train,y_train)
     bst_tr_predict= bstlfy.predict(X_test)
-    metrics = print_metrics("XG Boost Classifier", y_test, bst_tr_predict)
+    metrics = print_metrics("Decision Tree Bagging Classifier", y_test, bst_tr_predict)
     return metrics
-        # plt.plot([x for x in range(1, max_n_ests)], avg)
-    
-    # plt.legend(['Bagging w/ max depth 5', 'Bagging w/ max depth 10', 'Bagging w/ max depth 15', 'Bagging w/ max depth 20', 'Bagging w/ max depth 25'], loc='bottom right')
-
-    # fig.suptitle('Test sample accuracy vs Number of estimators')
-    # plt.xlabel('Number of estimators')
-    # plt.ylabel('Test sample accuracy')
-    # fig.savefig('images/rf/bagging.png')
-    # plt.show()
 
 def wrf_classifier(X,y):
     # wrf = RandomForestClassifier(n_estimators=10, class_weight='balanced')
@@ -164,9 +155,9 @@ def wrf_classifier(X,y):
     # define evaluation procedure
     cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=3, random_state=1)
     # evaluate model
-    scores = cross_val_score(model, X, y, scoring='accuracy', cv=cv, n_jobs=-1)
+    scores = cross_val_score(model, X, y, scoring='recall', cv=cv, n_jobs=-1)
     # summarize performance
-    print('Mean ROC AUC: %.3f' % np.mean(scores))
+    print('Mean recall: %.3f' % np.mean(scores))
 def brf_classifier(X, y):
     brf = BalancedRandomForestClassifier(n_estimators=100,max_depth=20)
     # brf.fit(X_train, y_train)
@@ -295,26 +286,18 @@ if __name__ == "__main__":
     logging.info("Vectorized X train dimensions: {}".format(np.shape(X_train_vectorized)))
     logging.info("Vectorized X test dimensions: {}".format(np.shape(X_test_vectorized)))
 
-    # resampled_majority_class_sizes = [173, 273, 473, 873, 1673, 3273, 4343]   #ratio of minority class to majority class
-    resampled_majority_class_sizes = []   #ratio of minority class to majority class
+    resampled_majority_class_sizes = [173, 273, 473, 873, 1673, 3273, 4343]   #ratio of minority class to majority class
+    # resampled_majority_class_sizes = []   #ratio of minority class to majority class
     precisions = []
     recalls = []
     accuracies = []
-    oversample = SMOTE()
-    X, y = oversample.fit_resample(X, y)
-    if model == "brf":
-        brf_classifier(X, y)
-    elif model == "wrf":
-        wrf_classifier(X, y)
     for majority_class_size in resampled_majority_class_sizes:
         nmus = NearMiss(sampling_strategy= {0:majority_class_size})
         X_train_vectorized_resampled, y_train_resampled = nmus.fit_resample(X_train_vectorized, y_train)
-        # print(Counter(y_train_resampled))
         logging.info("After resampling: \n \t X data size  : {} y data size : {}".format(np.shape(X_train_vectorized_resampled), np.shape(y_train_resampled)))
 
 
-    # Different values were tested using GridSearch and the following values yielded the best results.
-
+        # Different values were tested using GridSearch and the following values yielded the best results.
         svm_grid_values = {
                 "C" : (0.01, 0.1, 1, 10, 100),
                 "gamma":(10, 1, 0.1, 0.01),
@@ -345,19 +328,19 @@ if __name__ == "__main__":
             metrics = rf_bagging(X_train_vectorized_resampled, X_test_vectorized, y_train_resampled, y_test)
         elif model == "brf":
             brf_classifier(X_train_vectorized_resampled, X_test_vectorized, y_train_resampled, y_test)
-        # precisions.append(metrics["1"]["precision"])
-        # recalls.append(metrics["1"]["recall"])
-        # accuracies.append(metrics["accuracy"])
+        precisions.append(metrics["1"]["precision"])
+        recalls.append(metrics["1"]["recall"])
+        accuracies.append(metrics["accuracy"])
 
-    # print(precisions)
-    # print(recalls)
-    # print(accuracies)
-    # plt.title("Majority class undersampling trends in Perf metrics BRF (segmented unicode)", fontsize=10)
-    # plt.plot([173, 273, 473, 873, 1673, 3273, 4343], precisions, linewidth=2, label="precision")
-    # plt.plot([173, 273, 473, 873, 1673, 3273, 4343], recalls, linewidth=2, label = "recall")
-    # plt.plot([173, 273, 473, 873, 1673, 3273, 4343], accuracies, linewidth=2, label = "accuracy")
-    # plt.gca().set_xlabel("Training Size(Majority class size undersampled)", fontsize=10)
-    # plt.gca().set_ylabel("Test data performance measures", fontsize=10)
-    # plt.legend()
-    # plt.savefig(os.path.join(dir_path, "graphs/undersampling_seg_uni_brf.png"))
-    # plt.show()
+    print(precisions)
+    print(recalls)
+    print(accuracies)
+    plt.title("Majority class undersampling trends in Perf metrics BRF (segmented unicode)", fontsize=10)
+    plt.plot([173, 273, 473, 873, 1673, 3273, 4343], precisions, linewidth=2, label="precision")
+    plt.plot([173, 273, 473, 873, 1673, 3273, 4343], recalls, linewidth=2, label = "recall")
+    plt.plot([173, 273, 473, 873, 1673, 3273, 4343], accuracies, linewidth=2, label = "accuracy")
+    plt.gca().set_xlabel("Training Size(Majority class size undersampled)", fontsize=10)
+    plt.gca().set_ylabel("Test data performance measures", fontsize=10)
+    plt.legend()
+    plt.savefig(os.path.join(dir_path, "graphs/undersampling_seg_uni_brf.png"))
+    plt.show()
