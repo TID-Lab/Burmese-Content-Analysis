@@ -1,0 +1,9 @@
+2020-08-20 21:48:06,645 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-20 21:48:06,762 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-20 21:48:06,762 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-20 21:48:06,766 INFO     Data loaded
+2020-08-20 21:48:06,766 INFO     Num data points: 5758
+2020-08-20 21:48:06,766 INFO     Training data size : 4606
+2020-08-20 21:48:06,766 INFO     Testing data size: 1152
+2020-08-20 21:48:06,767 INFO     Y encoded
+2020-08-20 21:48:06,768 INFO     Data vectorized using Tfidf Vectorizer

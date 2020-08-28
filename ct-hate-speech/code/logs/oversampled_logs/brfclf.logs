@@ -1,0 +1,133 @@
+Original data counts : Counter({'No': 5424, 'Yes': 222})
+After oversampling: Counter({0: 5424, 1: 222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.61      0.76      1081
+           1       0.08      0.76      0.15        49
+
+    accuracy                           0.62      1130
+   macro avg       0.53      0.68      0.45      1130
+weighted avg       0.94      0.62      0.73      1130
+
+After oversampling: Counter({0: 5424, 1: 722})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.74      0.85      1083
+           1       0.33      0.95      0.50       147
+
+    accuracy                           0.77      1230
+   macro avg       0.66      0.85      0.67      1230
+weighted avg       0.91      0.77      0.81      1230
+
+After oversampling: Counter({0: 5424, 1: 1222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.79      0.88      1078
+           1       0.51      0.95      0.66       252
+
+    accuracy                           0.82      1330
+   macro avg       0.75      0.87      0.77      1330
+weighted avg       0.90      0.82      0.84      1330
+
+After oversampling: Counter({0: 5424, 1: 1722})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.80      0.88      1074
+           1       0.61      0.97      0.75       356
+
+    accuracy                           0.84      1430
+   macro avg       0.80      0.89      0.82      1430
+weighted avg       0.90      0.84      0.85      1430
+
+After oversampling: Counter({0: 5424, 1: 2222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.80      0.88      1092
+           1       0.66      0.97      0.79       438
+
+    accuracy                           0.85      1530
+   macro avg       0.82      0.89      0.83      1530
+weighted avg       0.89      0.85      0.85      1530
+
+After oversampling: Counter({0: 5424, 1: 2722})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.80      0.89      1072
+           1       0.72      0.98      0.83       558
+
+    accuracy                           0.86      1630
+   macro avg       0.85      0.89      0.86      1630
+weighted avg       0.90      0.86      0.87      1630
+
+After oversampling: Counter({0: 5424, 1: 3222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.79      0.88      1081
+           1       0.74      0.98      0.84       649
+
+    accuracy                           0.86      1730
+   macro avg       0.86      0.89      0.86      1730
+weighted avg       0.89      0.86      0.86      1730
+
+After oversampling: Counter({0: 5424, 1: 3722})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.83      0.89      1102
+           1       0.79      0.97      0.87       728
+
+    accuracy                           0.88      1830
+   macro avg       0.88      0.90      0.88      1830
+weighted avg       0.90      0.88      0.88      1830
+
+After oversampling: Counter({0: 5424, 1: 4222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.83      0.89      1078
+           1       0.81      0.96      0.88       852
+
+    accuracy                           0.89      1930
+   macro avg       0.89      0.89      0.89      1930
+weighted avg       0.90      0.89      0.89      1930
+
+After oversampling: Counter({0: 5424, 1: 4722})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.81      0.89      1098
+           1       0.81      0.98      0.89       932
+
+    accuracy                           0.89      2030
+   macro avg       0.90      0.89      0.89      2030
+weighted avg       0.90      0.89      0.89      2030
+
+After oversampling: Counter({0: 5424, 1: 5222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.82      0.89      1088
+           1       0.84      0.98      0.90      1042
+
+    accuracy                           0.90      2130
+   macro avg       0.91      0.90      0.90      2130
+weighted avg       0.91      0.90      0.90      2130
+

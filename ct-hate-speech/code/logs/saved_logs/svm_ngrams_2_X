@@ -1,0 +1,67 @@
+2020-08-15 10:10:07,640 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/ct-hate-speech/data/X.json
+2020-08-15 10:10:07,707 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/ct-hate-speech/data/X.json
+2020-08-15 10:10:07,708 INFO     File loaded: /nv/hcoc1/hshah88/data/ml-evaluation-models/ct-hate-speech/data/y.json
+2020-08-15 10:10:07,710 INFO     Data loaded
+2020-08-15 10:10:07,710 INFO     Num articles: 5758
+2020-08-15 10:10:07,710 INFO     Training data size : 4606
+2020-08-15 10:10:07,710 INFO     Testing data size: 1152
+2020-08-15 10:10:07,712 INFO     Y encoded
+2020-08-15 10:10:07,712 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-08-15 10:10:08,662 INFO     Feature names : ['000 100', '000 600', '000 chinese', '000 company', '000 ks', '000 kyats', '000 mmk', '000 nego', '000 spa', '000 waiter', '000 ကင', '000 အထက', '09 2540', '09 4200', '09 443427711', '09 97', '09443427711 အမ', '100 000', '100 သည', '1097953863567408 eng'] ...
+2020-08-15 10:10:08,662 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-15 10:10:08,662 INFO     Vectorized X test dimensions: (1152, 5000)
+2020-08-15 10:11:11,001 INFO     classifier: SVM Classifier (Grid search)
+2020-08-15 10:11:11,005 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98      1112
+           1       0.80      0.20      0.32        40
+
+    accuracy                           0.97      1152
+   macro avg       0.89      0.60      0.65      1152
+weighted avg       0.97      0.97      0.96      1152
+
+2020-08-15 10:11:11,005 INFO     Grid SVM Best Parameters: {'C': 1, 'gamma': 10, 'kernel': 'rbf'}
+2020-08-15 10:11:11,011 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.9604863221884499
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.9604863221884499
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.9604863221884499
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.9604863221884499
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.9609205384281372
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.9609205384281372
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.9609205384281372
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.9609205384281372
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.9598349978289188
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.9498480243161094
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.9648284845853234
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.9498480243161094
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.9639600521059488
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.9498480243161094
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.9617889709075119
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.9498480243161094
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.9615718627876683
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.9372557533651759
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.9648284845853234
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.9372557533651759
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.9648284845853234
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.9372557533651759
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.9617889709075119
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.9372557533651759
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.9622231871471993
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.9363873208858011
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.9648284845853234
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.9363873208858011
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.9648284845853234
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.9363873208858011
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.9591836734693877
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.9363873208858011
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.9515848892748588
+

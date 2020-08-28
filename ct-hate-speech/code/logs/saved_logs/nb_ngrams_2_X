@@ -1,0 +1,33 @@
+2020-08-14 23:30:39,012 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-14 23:30:39,128 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-14 23:30:39,129 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-14 23:30:39,181 INFO     Data loaded
+2020-08-14 23:30:39,181 INFO     Num articles: 5758
+2020-08-14 23:30:39,181 INFO     Training data size : 4606
+2020-08-14 23:30:39,181 INFO     Testing data size: 1152
+2020-08-14 23:30:39,203 INFO     Y encoded
+2020-08-14 23:30:39,204 INFO     Data vectorized using Count Vectorizer with 2 ngrams
+2020-08-14 23:30:40,725 INFO     Feature names : ['000 100', '000 600', '000 chinese', '000 company', '000 ks', '000 kyats', '000 mmk', '000 nego', '000 spa', '000 waiter', '000 ကင', '000 အထက', '09 2540', '09 4200', '09 443427711', '09 97', '09443427711 အမ', '100 000', '100 သည', '1097953863567408 eng'] ...
+2020-08-14 23:30:40,725 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-14 23:30:40,725 INFO     Vectorized X test dimensions: (1152, 5000)
+2020-08-14 23:30:40,852 INFO     classifier: Naive Bayes Classifier (Grid search)
+2020-08-14 23:30:40,862 INFO     
+              precision    recall  f1-score   support
+
+          No       0.97      0.99      0.98      1112
+         Yes       0.32      0.17      0.23        40
+
+    accuracy                           0.96      1152
+   macro avg       0.64      0.58      0.60      1152
+weighted avg       0.95      0.96      0.95      1152
+
+2020-08-14 23:30:40,863 INFO     Grid NB Best Parameters: {'alpha': 0.001}
+2020-08-14 23:30:40,946 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.9565783760312636
+"{'alpha': 0.01}" 0.9544072948328267
+"{'alpha': 0.1}" 0.939209726443769
+"{'alpha': 0.2}" 0.9285714285714286
+"{'alpha': 0.3}" 0.9177160225792445
+"{'alpha': 0.4}" 0.9151107251411202
+

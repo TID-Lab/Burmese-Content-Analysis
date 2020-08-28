@@ -1,0 +1,108 @@
+2020-08-20 21:12:51,407 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X_filtered.json
+2020-08-20 21:12:51,492 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X_filtered.json
+2020-08-20 21:12:51,493 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y_filtered.json
+2020-08-20 21:12:51,496 INFO     Data loaded
+2020-08-20 21:12:51,496 INFO     Num data points: 5646
+2020-08-20 21:12:51,496 INFO     Training data size : 4516
+2020-08-20 21:12:51,496 INFO     Testing data size: 1130
+2020-08-20 21:12:51,497 INFO     Y encoded
+2020-08-20 21:12:51,497 INFO     Data vectorized using Tfidf Vectorizer
+2020-08-20 21:12:52,427 INFO     Feature names : ['ကက', 'ကကလ', 'ကခ', 'ကင', 'ကစ', 'ကစစ', 'ကဆ', 'ကဇ', 'ကည', 'ကညစ', 'ကညန', 'ကဋ', 'ကဌ', 'ကဏ', 'ကတ', 'ကတင', 'ကတည', 'ကတတ', 'ကထ', 'ကဒ'] ...
+2020-08-20 21:12:52,427 INFO     Vectorized X train dimensions: (4516, 1758)
+2020-08-20 21:12:52,427 INFO     Vectorized X test dimensions: (1130, 1758)
+2020-08-20 21:12:52,455 INFO     After resampling: 
+ 	 X data size  : (346, 1758) y data size : (346,)
+2020-08-20 21:12:52,860 INFO     classifier: BRF Classifier
+2020-08-20 21:12:52,865 INFO     
+              precision    recall  f1-score   support
+
+           0       0.94      0.21      0.35      1081
+           1       0.04      0.71      0.07        49
+
+    accuracy                           0.24      1130
+   macro avg       0.49      0.46      0.21      1130
+weighted avg       0.90      0.24      0.34      1130
+
+2020-08-20 21:12:52,893 INFO     After resampling: 
+ 	 X data size  : (446, 1758) y data size : (446,)
+2020-08-20 21:12:53,293 INFO     classifier: BRF Classifier
+2020-08-20 21:12:53,299 INFO     
+              precision    recall  f1-score   support
+
+           0       0.93      0.20      0.33      1081
+           1       0.04      0.67      0.07        49
+
+    accuracy                           0.22      1130
+   macro avg       0.48      0.44      0.20      1130
+weighted avg       0.89      0.22      0.32      1130
+
+2020-08-20 21:12:53,327 INFO     After resampling: 
+ 	 X data size  : (646, 1758) y data size : (646,)
+2020-08-20 21:12:53,752 INFO     classifier: BRF Classifier
+2020-08-20 21:12:53,757 INFO     
+              precision    recall  f1-score   support
+
+           0       0.93      0.22      0.35      1081
+           1       0.04      0.63      0.07        49
+
+    accuracy                           0.24      1130
+   macro avg       0.48      0.43      0.21      1130
+weighted avg       0.89      0.24      0.34      1130
+
+2020-08-20 21:12:53,785 INFO     After resampling: 
+ 	 X data size  : (1046, 1758) y data size : (1046,)
+2020-08-20 21:12:54,251 INFO     classifier: BRF Classifier
+2020-08-20 21:12:54,256 INFO     
+              precision    recall  f1-score   support
+
+           0       0.95      0.41      0.58      1081
+           1       0.04      0.49      0.07        49
+
+    accuracy                           0.42      1130
+   macro avg       0.49      0.45      0.32      1130
+weighted avg       0.91      0.42      0.55      1130
+
+2020-08-20 21:12:54,285 INFO     After resampling: 
+ 	 X data size  : (1846, 1758) y data size : (1846,)
+2020-08-20 21:12:54,760 INFO     classifier: BRF Classifier
+2020-08-20 21:12:54,765 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      0.74      0.84      1081
+           1       0.08      0.49      0.14        49
+
+    accuracy                           0.73      1130
+   macro avg       0.52      0.62      0.49      1130
+weighted avg       0.93      0.73      0.81      1130
+
+2020-08-20 21:12:54,792 INFO     After resampling: 
+ 	 X data size  : (3446, 1758) y data size : (3446,)
+2020-08-20 21:12:55,324 INFO     classifier: BRF Classifier
+2020-08-20 21:12:55,329 INFO     
+              precision    recall  f1-score   support
+
+           0       0.98      0.60      0.74      1081
+           1       0.08      0.76      0.14        49
+
+    accuracy                           0.61      1130
+   macro avg       0.53      0.68      0.44      1130
+weighted avg       0.94      0.61      0.72      1130
+
+2020-08-20 21:12:55,357 INFO     After resampling: 
+ 	 X data size  : (4516, 1758) y data size : (4516,)
+2020-08-20 21:12:55,959 INFO     classifier: BRF Classifier
+2020-08-20 21:12:55,964 INFO     
+              precision    recall  f1-score   support
+
+           0       0.99      0.58      0.73      1081
+           1       0.08      0.82      0.15        49
+
+    accuracy                           0.59      1130
+   macro avg       0.53      0.70      0.44      1130
+weighted avg       0.95      0.59      0.71      1130
+
+2020-08-20 21:12:56,033 DEBUG    update_title_pos
+2020-08-20 21:12:56,052 DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/harshil/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-08-20 21:12:56,192 DEBUG    update_title_pos
+2020-08-20 21:12:56,255 DEBUG    update_title_pos
+2020-08-20 21:12:56,337 DEBUG    update_title_pos

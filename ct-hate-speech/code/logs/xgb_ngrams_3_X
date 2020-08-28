@@ -1,0 +1,25 @@
+2020-08-20 19:06:02,736 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-20 19:06:02,819 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-20 19:06:02,820 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-20 19:06:02,822 INFO     Data loaded
+2020-08-20 19:06:02,822 INFO     Num data points: 5758
+2020-08-20 19:06:02,822 INFO     Training data size : 4606
+2020-08-20 19:06:02,822 INFO     Testing data size: 1152
+2020-08-20 19:06:02,823 INFO     Y encoded
+2020-08-20 19:06:02,823 INFO     Data vectorized using Count Vectorizer with 3 ngrams
+2020-08-20 19:06:03,949 INFO     Feature names : ['000 100 000', '000 600 000', '000 chinese translator', '000 company အတ', '000 nego ကင', '000 spa အလ', '000 waiter waitress', '000 ကင chinese', '000 အထက တန', '000 အထက မည', '09 2540 80', '09 4200 91519', '09 443427711 phone', '09 97 123', '09443427711 အမ သည', '0kixdult4wk https www', '100 000 chinese', '100 000 spa', '100 000 အထက', '100 သည ပထမဆ'] ...
+2020-08-20 19:06:03,950 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-20 19:06:03,950 INFO     Vectorized X test dimensions: (1152, 5000)
+2020-08-20 19:06:03,964 INFO     After resampling: 
+ 	 X data size  : (4528, 5000) y data size : (4528,)
+2020-08-20 19:06:04,151 INFO     classifier: XG Boost Classifier
+2020-08-20 19:06:04,155 INFO     
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98      1112
+           1       0.43      0.07      0.13        40
+
+    accuracy                           0.96      1152
+   macro avg       0.70      0.54      0.55      1152
+weighted avg       0.95      0.96      0.95      1152
+

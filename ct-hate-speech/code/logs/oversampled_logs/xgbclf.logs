@@ -1,0 +1,133 @@
+Original data counts : Counter({'No': 5424, 'Yes': 222})
+After oversampling: Counter({0: 5424, 1: 222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.76      0.86      1095
+           1       0.10      0.83      0.18        35
+
+    accuracy                           0.77      1130
+   macro avg       0.55      0.80      0.52      1130
+weighted avg       0.97      0.77      0.84      1130
+
+After oversampling: Counter({0: 5424, 1: 722})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.66      0.78      1086
+           1       0.25      0.88      0.39       144
+
+    accuracy                           0.68      1230
+   macro avg       0.61      0.77      0.59      1230
+weighted avg       0.89      0.68      0.74      1230
+
+After oversampling: Counter({0: 5424, 1: 1222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.54      0.69      1087
+           1       0.31      0.95      0.47       243
+
+    accuracy                           0.61      1330
+   macro avg       0.65      0.74      0.58      1330
+weighted avg       0.86      0.61      0.65      1330
+
+After oversampling: Counter({0: 5424, 1: 1722})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.53      0.69      1096
+           1       0.39      0.98      0.56       334
+
+    accuracy                           0.64      1430
+   macro avg       0.69      0.76      0.63      1430
+weighted avg       0.85      0.64      0.66      1430
+
+After oversampling: Counter({0: 5424, 1: 2222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.50      0.67      1077
+           1       0.45      0.98      0.62       453
+
+    accuracy                           0.65      1530
+   macro avg       0.72      0.74      0.64      1530
+weighted avg       0.83      0.65      0.65      1530
+
+After oversampling: Counter({0: 5424, 1: 2722})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.49      0.66      1099
+           1       0.48      0.98      0.65       531
+
+    accuracy                           0.65      1630
+   macro avg       0.73      0.74      0.65      1630
+weighted avg       0.82      0.65      0.65      1630
+
+After oversampling: Counter({0: 5424, 1: 3222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.55      0.70      1055
+           1       0.58      0.98      0.73       675
+
+    accuracy                           0.72      1730
+   macro avg       0.78      0.76      0.72      1730
+weighted avg       0.82      0.72      0.71      1730
+
+After oversampling: Counter({0: 5424, 1: 3722})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.41      0.59      1070
+           1       0.55      1.00      0.71       760
+
+    accuracy                           0.66      1830
+   macro avg       0.77      0.71      0.65      1830
+weighted avg       0.81      0.66      0.64      1830
+
+After oversampling: Counter({0: 5424, 1: 4222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.46      0.63      1053
+           1       0.60      0.99      0.75       877
+
+    accuracy                           0.70      1930
+   macro avg       0.80      0.73      0.69      1930
+weighted avg       0.81      0.70      0.68      1930
+
+After oversampling: Counter({0: 5424, 1: 4722})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.44      0.61      1079
+           1       0.61      0.99      0.75       951
+
+    accuracy                           0.70      2030
+   macro avg       0.80      0.72      0.68      2030
+weighted avg       0.81      0.70      0.68      2030
+
+After oversampling: Counter({0: 5424, 1: 5222})
+classifier: XGBoostClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.40      0.56      1081
+           1       0.61      0.99      0.76      1049
+
+    accuracy                           0.69      2130
+   macro avg       0.80      0.69      0.66      2130
+weighted avg       0.80      0.69      0.66      2130
+

@@ -1,0 +1,12 @@
+2020-08-27 19:15:30,677 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-27 19:15:30,761 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/X.json
+2020-08-27 19:15:30,761 INFO     File loaded: /home/harshil/Harshil/gt/spring2020/research2/burmese-NLP/ct-hate-speech/data/y.json
+2020-08-27 19:15:30,763 INFO     Data loaded
+2020-08-27 19:15:30,763 INFO     Num data points: 5758
+2020-08-27 19:15:30,764 INFO     Training data size : 4606
+2020-08-27 19:15:30,764 INFO     Testing data size: 1152
+2020-08-27 19:15:30,765 INFO     Y encoded
+2020-08-27 19:15:30,765 INFO     Data vectorized using Tfidf Vectorizer
+2020-08-27 19:15:31,911 INFO     Feature names : ['00', '000', '002', '00am', '00m', '00pm', '01', '010', '0183193924', '02', '03', '04', '045', '05', '06', '08', '09', '09259258865', '09264686461', '09403704089'] ...
+2020-08-27 19:15:31,911 INFO     Vectorized X train dimensions: (4606, 5000)
+2020-08-27 19:15:31,911 INFO     Vectorized X test dimensions: (1152, 5000)
