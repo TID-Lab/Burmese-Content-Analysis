@@ -85,12 +85,3 @@ plt.gca().set_ylabel("Test data performance measures", fontsize=10)
 plt.legend()
 plt.savefig("oversampling_seg_uni_fil_{}.png".format(clf_name))
 plt.show()
-
-
-    
-
-
-
-
-
-

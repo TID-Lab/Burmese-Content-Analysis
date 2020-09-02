@@ -32,7 +32,7 @@ class DataProcessing:
             for i, d_obj in enumerate(json_data):
                 json_data[i]["content"] = zawgyi_to_unicode(d_obj["content"])
                 json_data[i]["content"] = " ".join(self.segmenter.segment(json_data[i]["content"]))
-                json_data[i]["content"] = re.sub("[\s\s+]", ' ', non_burmese_pattern.sub('', json_data[i]["content"]))
+                json_data[i]["content"] = re.sub("\s+", ' ', non_burmese_pattern.sub('', json_data[i]["content"]))
             with codecs.open("json_segmented_converted_cleaned.json", "w", encoding="utf-8") as out:
                 json.dump(json_data, out, ensure_ascii=False, indent=4)
             # print(len(raw_text))
