@@ -23,20 +23,20 @@ def print_metrics(clf_name, y_test, predicted):
     return report
 
 
-with open("../ct-hate-speech/data/X_filtered.json", "r") as X_file:
+with open("../data/X_filtered.json", "r") as X_file:
     X = json.load(X_file)
 
-with open("../ct-hate-speech/data/y_filtered.json", "r") as y_file:
+with open("../data/y_filtered.json", "r") as y_file:
     y = json.load(y_file)
 
 counts = Counter(y)
 print("Original data counts : " + str(counts))
 
-vect = TfidfVectorizer(max_features=5000)
-vect.fit(X)
-
-# vect = CountVectorizer(ngram_range=(2,2), max_features = 5000)
+# vect = TfidfVectorizer(max_features=5000)
 # vect.fit(X)
+
+vect = CountVectorizer(ngram_range=(2,3), max_features = 5000)
+vect.fit(X)
 
 Encoder = LabelEncoder()
 
@@ -67,7 +67,7 @@ for minority_class_size in resampled_minority_class_sizes:
     print("After oversampling: " + str(y_counter))
     X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, train_size=0.80,test_size=0.20)
 
-    clf_name = "BaggingClf"
+    clf_name = "BalancedRFClf"
     clf = models[clf_name]
     clf.fit(X_train, y_train)
     prds = clf.predict(X_test)
