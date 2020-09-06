@@ -98,7 +98,11 @@ class Segmenter():
         ## since we replaced with same length,
         ## this function needs to be able to find back the same string with same length
         while word_length != token_length:
-            word_obj = self.segmented_matches.pop(0)
+            try:
+                word_obj = self.segmented_matches.pop(0)
+            except IndexError as e:
+                break
+
             word = word_obj.word
             word_length += len(word)
 
