@@ -5,7 +5,7 @@ ct-hate-speech/classifiers/
 ct-hate-speech/data/
 fastText/
 alt-treebank/data
-bbc/data
+bbc/data/archive
 alt-treebank/classifiers
 bbc/classifiers
 *.pyc
