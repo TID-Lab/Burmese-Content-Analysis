@@ -70,6 +70,10 @@ for minority_class_size in resampled_minority_class_sizes:
     clf = models[clf_name]
     clf.fit(X_train, y_train)
     prds = clf.predict(X_test)
+    # with open("model-data/svm/y_pred.json", "w") as y_pred_f:
+    #     json.dump(prds.tolist(), y_pred_f)
+    # with open("model-data/svm/y_test.json", "w") as y_test_f:
+    #     json.dump(y_test.tolist(), y_test_f)
     metrics = print_metrics(clf_name, y_test, prds)
     precisions.append(metrics["1"]["precision"])
     recalls.append(metrics["1"]["recall"])

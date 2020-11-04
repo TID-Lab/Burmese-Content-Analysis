@@ -4,68 +4,68 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.96      1.00      0.98      1083
-           1       0.00      0.00      0.00        47
+           0       0.96      1.00      0.98      1090
+           1       0.00      0.00      0.00        40
 
     accuracy                           0.96      1130
    macro avg       0.48      0.50      0.49      1130
-weighted avg       0.92      0.96      0.94      1130
+weighted avg       0.93      0.96      0.95      1130
 
 After oversampling: Counter({0: 5424, 1: 800})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.87      1.00      0.93      1080
-           1       0.80      0.02      0.05       165
+           0       0.88      1.00      0.94      1084
+           1       1.00      0.07      0.13       161
 
-    accuracy                           0.87      1245
-   macro avg       0.84      0.51      0.49      1245
-weighted avg       0.86      0.87      0.81      1245
+    accuracy                           0.88      1245
+   macro avg       0.94      0.53      0.53      1245
+weighted avg       0.89      0.88      0.83      1245
 
 After oversampling: Counter({0: 5424, 1: 1378})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.81      1.00      0.90      1083
-           1       0.94      0.12      0.21       278
+           0       0.82      1.00      0.90      1082
+           1       0.98      0.15      0.27       279
 
-    accuracy                           0.82      1361
-   macro avg       0.88      0.56      0.55      1361
-weighted avg       0.84      0.82      0.76      1361
+    accuracy                           0.83      1361
+   macro avg       0.90      0.58      0.58      1361
+weighted avg       0.85      0.83      0.77      1361
 
 After oversampling: Counter({0: 5424, 1: 1956})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.88      0.89      0.88      1077
-           1       0.69      0.68      0.68       399
+           0       0.88      0.92      0.90      1061
+           1       0.76      0.68      0.72       415
 
-    accuracy                           0.83      1476
-   macro avg       0.79      0.78      0.78      1476
-weighted avg       0.83      0.83      0.83      1476
+    accuracy                           0.85      1476
+   macro avg       0.82      0.80      0.81      1476
+weighted avg       0.85      0.85      0.85      1476
 
 After oversampling: Counter({0: 5424, 1: 2534})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.92      0.90      0.91      1108
-           1       0.78      0.82      0.80       484
+           0       0.88      0.91      0.89      1077
+           1       0.79      0.73      0.76       515
 
-    accuracy                           0.87      1592
-   macro avg       0.85      0.86      0.85      1592
-weighted avg       0.87      0.87      0.87      1592
+    accuracy                           0.85      1592
+   macro avg       0.83      0.82      0.82      1592
+weighted avg       0.85      0.85      0.85      1592
 
 After oversampling: Counter({0: 5424, 1: 3112})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.92      0.87      0.89      1104
-           1       0.78      0.86      0.82       604
+           0       0.92      0.87      0.89      1106
+           1       0.79      0.86      0.82       602
 
     accuracy                           0.87      1708
    macro avg       0.85      0.86      0.86      1708
@@ -76,32 +76,32 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.91      0.85      0.88      1112
-           1       0.78      0.86      0.82       711
+           0       0.91      0.87      0.89      1099
+           1       0.82      0.87      0.84       724
 
-    accuracy                           0.85      1823
-   macro avg       0.85      0.86      0.85      1823
-weighted avg       0.86      0.85      0.86      1823
+    accuracy                           0.87      1823
+   macro avg       0.86      0.87      0.87      1823
+weighted avg       0.87      0.87      0.87      1823
 
 After oversampling: Counter({0: 5424, 1: 4268})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.91      0.84      0.87      1080
-           1       0.82      0.89      0.85       859
+           0       0.90      0.86      0.88      1084
+           1       0.83      0.88      0.86       855
 
-    accuracy                           0.86      1939
-   macro avg       0.86      0.87      0.86      1939
-weighted avg       0.87      0.86      0.86      1939
+    accuracy                           0.87      1939
+   macro avg       0.87      0.87      0.87      1939
+weighted avg       0.87      0.87      0.87      1939
 
 After oversampling: Counter({0: 5424, 1: 4846})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.84      0.86      1086
-           1       0.83      0.88      0.86       968
+           0       0.89      0.83      0.86      1099
+           1       0.82      0.89      0.85       955
 
     accuracy                           0.86      2054
    macro avg       0.86      0.86      0.86      2054
@@ -112,10 +112,10 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.82      0.85      1098
-           1       0.83      0.89      0.86      1072
+           0       0.90      0.83      0.86      1057
+           1       0.85      0.91      0.88      1113
 
-    accuracy                           0.85      2170
-   macro avg       0.86      0.86      0.85      2170
-weighted avg       0.86      0.85      0.85      2170
+    accuracy                           0.87      2170
+   macro avg       0.88      0.87      0.87      2170
+weighted avg       0.87      0.87      0.87      2170
 
