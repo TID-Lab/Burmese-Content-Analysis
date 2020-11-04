@@ -43,7 +43,7 @@ Encoder = LabelEncoder()
 y = Encoder.fit_transform(y)
 X = vect.transform(X)
 y_counter = Counter(y)
-resampled_minority_class_sizes = np.arange(y_counter[1], y_counter[0], 500)
+resampled_minority_class_sizes =  np.linspace(y_counter[1], y_counter[0], 10, True, dtype=int)
 
 
 precisions = []
@@ -60,7 +60,6 @@ models = {
 }
 
 for minority_class_size in resampled_minority_class_sizes:
-    # # oversample = SMOTE(sampling_strategy={1: minority_class_size})
     oversample = SMOTE(sampling_strategy={1: minority_class_size})
     X, y = oversample.fit_resample(X, y)
     y_counter = Counter(y)
