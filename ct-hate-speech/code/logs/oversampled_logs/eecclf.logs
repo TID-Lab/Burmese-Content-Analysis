@@ -4,130 +4,118 @@ classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.98      0.65      0.78      1081
-           1       0.09      0.76      0.16        49
+           0       0.98      0.63      0.77      1084
+           1       0.08      0.76      0.15        46
 
-    accuracy                           0.66      1130
-   macro avg       0.54      0.70      0.47      1130
-weighted avg       0.94      0.66      0.76      1130
+    accuracy                           0.64      1130
+   macro avg       0.53      0.70      0.46      1130
+weighted avg       0.95      0.64      0.74      1130
 
-After oversampling: Counter({0: 5424, 1: 722})
+After oversampling: Counter({0: 5424, 1: 800})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.96      0.76      0.85      1089
-           1       0.29      0.77      0.42       141
+           0       0.97      0.74      0.84      1097
+           1       0.30      0.83      0.44       148
 
-    accuracy                           0.76      1230
-   macro avg       0.63      0.76      0.64      1230
-weighted avg       0.88      0.76      0.80      1230
+    accuracy                           0.75      1245
+   macro avg       0.64      0.79      0.64      1245
+weighted avg       0.89      0.75      0.79      1245
 
-After oversampling: Counter({0: 5424, 1: 1222})
+After oversampling: Counter({0: 5424, 1: 1378})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.96      0.76      0.85      1103
-           1       0.42      0.84      0.56       227
+           0       0.96      0.76      0.85      1109
+           1       0.45      0.87      0.59       252
 
-    accuracy                           0.77      1330
-   macro avg       0.69      0.80      0.70      1330
-weighted avg       0.87      0.77      0.80      1330
+    accuracy                           0.78      1361
+   macro avg       0.70      0.81      0.72      1361
+weighted avg       0.87      0.78      0.80      1361
 
-After oversampling: Counter({0: 5424, 1: 1722})
+After oversampling: Counter({0: 5424, 1: 1956})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.94      0.77      0.85      1093
-           1       0.53      0.85      0.65       337
+           0       0.93      0.78      0.85      1081
+           1       0.58      0.84      0.69       395
 
-    accuracy                           0.79      1430
-   macro avg       0.74      0.81      0.75      1430
-weighted avg       0.85      0.79      0.80      1430
+    accuracy                           0.80      1476
+   macro avg       0.76      0.81      0.77      1476
+weighted avg       0.84      0.80      0.81      1476
 
-After oversampling: Counter({0: 5424, 1: 2222})
+After oversampling: Counter({0: 5424, 1: 2534})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.95      0.77      0.85      1100
-           1       0.60      0.89      0.72       430
+           0       0.94      0.76      0.84      1107
+           1       0.62      0.89      0.73       485
 
-    accuracy                           0.80      1530
-   macro avg       0.77      0.83      0.78      1530
-weighted avg       0.85      0.80      0.81      1530
+    accuracy                           0.80      1592
+   macro avg       0.78      0.83      0.79      1592
+weighted avg       0.84      0.80      0.81      1592
 
-After oversampling: Counter({0: 5424, 1: 2722})
+After oversampling: Counter({0: 5424, 1: 3112})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.94      0.76      0.84      1112
-           1       0.64      0.89      0.74       518
+           0       0.92      0.76      0.83      1075
+           1       0.69      0.89      0.78       633
 
-    accuracy                           0.81      1630
-   macro avg       0.79      0.83      0.79      1630
-weighted avg       0.84      0.81      0.81      1630
+    accuracy                           0.81      1708
+   macro avg       0.80      0.83      0.80      1708
+weighted avg       0.83      0.81      0.81      1708
 
-After oversampling: Counter({0: 5424, 1: 3222})
+After oversampling: Counter({0: 5424, 1: 3690})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.92      0.75      0.83      1104
-           1       0.67      0.89      0.76       626
+           0       0.89      0.77      0.82      1058
+           1       0.73      0.87      0.79       765
 
-    accuracy                           0.80      1730
-   macro avg       0.79      0.82      0.79      1730
-weighted avg       0.83      0.80      0.80      1730
+    accuracy                           0.81      1823
+   macro avg       0.81      0.82      0.81      1823
+weighted avg       0.82      0.81      0.81      1823
 
-After oversampling: Counter({0: 5424, 1: 3722})
+After oversampling: Counter({0: 5424, 1: 4268})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.90      0.79      0.84      1100
-           1       0.73      0.87      0.79       730
+           0       0.89      0.76      0.82      1090
+           1       0.74      0.88      0.81       849
 
-    accuracy                           0.82      1830
-   macro avg       0.81      0.83      0.82      1830
-weighted avg       0.83      0.82      0.82      1830
+    accuracy                           0.81      1939
+   macro avg       0.82      0.82      0.81      1939
+weighted avg       0.83      0.81      0.81      1939
 
-After oversampling: Counter({0: 5424, 1: 4222})
+After oversampling: Counter({0: 5424, 1: 4846})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.76      0.82      1104
-           1       0.74      0.88      0.80       826
+           0       0.87      0.76      0.81      1100
+           1       0.76      0.87      0.81       954
 
-    accuracy                           0.81      1930
-   macro avg       0.81      0.82      0.81      1930
-weighted avg       0.83      0.81      0.81      1930
+    accuracy                           0.81      2054
+   macro avg       0.81      0.81      0.81      2054
+weighted avg       0.82      0.81      0.81      2054
 
-After oversampling: Counter({0: 5424, 1: 4722})
+After oversampling: Counter({0: 5424, 1: 5424})
 classifier: EasyEnsembleClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.77      0.82      1112
-           1       0.76      0.89      0.82       918
+           0       0.86      0.76      0.81      1060
+           1       0.79      0.88      0.84      1110
 
-    accuracy                           0.82      2030
-   macro avg       0.82      0.83      0.82      2030
-weighted avg       0.83      0.82      0.82      2030
-
-After oversampling: Counter({0: 5424, 1: 5222})
-classifier: EasyEnsembleClf
-
-              precision    recall  f1-score   support
-
-           0       0.88      0.75      0.81      1105
-           1       0.77      0.89      0.82      1025
-
-    accuracy                           0.82      2130
-   macro avg       0.82      0.82      0.82      2130
-weighted avg       0.83      0.82      0.82      2130
+    accuracy                           0.82      2170
+   macro avg       0.83      0.82      0.82      2170
+weighted avg       0.83      0.82      0.82      2170
 

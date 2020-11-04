@@ -4,130 +4,118 @@ classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.96      1.00      0.98      1083
-           1       0.80      0.09      0.15        47
+           0       0.96      1.00      0.98      1086
+           1       1.00      0.05      0.09        44
 
     accuracy                           0.96      1130
-   macro avg       0.88      0.54      0.57      1130
+   macro avg       0.98      0.52      0.53      1130
 weighted avg       0.96      0.96      0.95      1130
 
-After oversampling: Counter({0: 5424, 1: 722})
+After oversampling: Counter({0: 5424, 1: 800})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.99      0.94      1073
-           1       0.82      0.18      0.29       157
+           0       0.87      1.00      0.93      1071
+           1       0.87      0.11      0.20       174
 
-    accuracy                           0.89      1230
-   macro avg       0.86      0.59      0.62      1230
-weighted avg       0.88      0.89      0.86      1230
+    accuracy                           0.87      1245
+   macro avg       0.87      0.56      0.57      1245
+weighted avg       0.87      0.87      0.83      1245
 
-After oversampling: Counter({0: 5424, 1: 1222})
+After oversampling: Counter({0: 5424, 1: 1378})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.98      0.93      1099
-           1       0.82      0.39      0.53       231
+           0       0.87      0.99      0.92      1088
+           1       0.92      0.40      0.55       273
 
-    accuracy                           0.88      1330
-   macro avg       0.85      0.69      0.73      1330
-weighted avg       0.87      0.88      0.86      1330
+    accuracy                           0.87      1361
+   macro avg       0.89      0.69      0.74      1361
+weighted avg       0.88      0.87      0.85      1361
 
-After oversampling: Counter({0: 5424, 1: 1722})
+After oversampling: Counter({0: 5424, 1: 1956})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.84      0.99      0.91      1065
-           1       0.93      0.46      0.62       365
+           0       0.85      0.98      0.91      1098
+           1       0.91      0.48      0.63       378
 
-    accuracy                           0.85      1430
-   macro avg       0.89      0.72      0.76      1430
-weighted avg       0.87      0.85      0.83      1430
+    accuracy                           0.85      1476
+   macro avg       0.88      0.73      0.77      1476
+weighted avg       0.86      0.85      0.84      1476
 
-After oversampling: Counter({0: 5424, 1: 2222})
+After oversampling: Counter({0: 5424, 1: 2534})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.83      0.98      0.90      1075
-           1       0.91      0.51      0.66       455
+           0       0.83      0.97      0.89      1098
+           1       0.89      0.55      0.68       494
 
-    accuracy                           0.84      1530
-   macro avg       0.87      0.75      0.78      1530
-weighted avg       0.85      0.84      0.82      1530
+    accuracy                           0.84      1592
+   macro avg       0.86      0.76      0.78      1592
+weighted avg       0.85      0.84      0.83      1592
 
-After oversampling: Counter({0: 5424, 1: 2722})
+After oversampling: Counter({0: 5424, 1: 3112})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.82      0.98      0.89      1084
-           1       0.93      0.57      0.71       546
+           0       0.83      0.96      0.90      1096
+           1       0.91      0.66      0.76       612
 
-    accuracy                           0.84      1630
-   macro avg       0.87      0.77      0.80      1630
-weighted avg       0.85      0.84      0.83      1630
+    accuracy                           0.85      1708
+   macro avg       0.87      0.81      0.83      1708
+weighted avg       0.86      0.85      0.85      1708
 
-After oversampling: Counter({0: 5424, 1: 3222})
+After oversampling: Counter({0: 5424, 1: 3690})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.79      0.97      0.87      1086
-           1       0.92      0.57      0.71       644
+           0       0.82      0.92      0.87      1093
+           1       0.86      0.69      0.77       730
 
-    accuracy                           0.82      1730
-   macro avg       0.86      0.77      0.79      1730
-weighted avg       0.84      0.82      0.81      1730
+    accuracy                           0.83      1823
+   macro avg       0.84      0.81      0.82      1823
+weighted avg       0.83      0.83      0.83      1823
 
-After oversampling: Counter({0: 5424, 1: 3722})
+After oversampling: Counter({0: 5424, 1: 4268})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.94      0.80      0.87      1061
-           1       0.78      0.93      0.84       769
+           0       0.95      0.77      0.85      1094
+           1       0.76      0.95      0.85       845
 
-    accuracy                           0.86      1830
-   macro avg       0.86      0.87      0.86      1830
-weighted avg       0.87      0.86      0.86      1830
+    accuracy                           0.85      1939
+   macro avg       0.86      0.86      0.85      1939
+weighted avg       0.87      0.85      0.85      1939
 
-After oversampling: Counter({0: 5424, 1: 4222})
+After oversampling: Counter({0: 5424, 1: 4846})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.94      0.73      0.82      1098
-           1       0.72      0.94      0.82       832
+           0       0.97      0.76      0.85      1114
+           1       0.78      0.97      0.86       940
 
-    accuracy                           0.82      1930
-   macro avg       0.83      0.83      0.82      1930
-weighted avg       0.85      0.82      0.82      1930
+    accuracy                           0.86      2054
+   macro avg       0.87      0.87      0.86      2054
+weighted avg       0.88      0.86      0.86      2054
 
-After oversampling: Counter({0: 5424, 1: 4722})
+After oversampling: Counter({0: 5424, 1: 5424})
 classifier: BaggingClf
 
               precision    recall  f1-score   support
 
-           0       0.94      0.76      0.84      1116
-           1       0.76      0.94      0.84       914
+           0       0.96      0.78      0.86      1099
+           1       0.81      0.97      0.88      1071
 
-    accuracy                           0.84      2030
-   macro avg       0.85      0.85      0.84      2030
-weighted avg       0.86      0.84      0.84      2030
-
-After oversampling: Counter({0: 5424, 1: 5222})
-classifier: BaggingClf
-
-              precision    recall  f1-score   support
-
-           0       0.94      0.73      0.82      1108
-           1       0.76      0.95      0.84      1022
-
-    accuracy                           0.83      2130
-   macro avg       0.85      0.84      0.83      2130
-weighted avg       0.85      0.83      0.83      2130
+    accuracy                           0.87      2170
+   macro avg       0.89      0.87      0.87      2170
+weighted avg       0.89      0.87      0.87      2170
 
