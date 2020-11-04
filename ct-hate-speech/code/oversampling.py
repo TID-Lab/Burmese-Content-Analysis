@@ -32,11 +32,11 @@ with open("../data/y_filtered.json", "r") as y_file:
 counts = Counter(y)
 print("Original data counts : " + str(counts))
 
-# vect = TfidfVectorizer(max_features=5000)
-# vect.fit(X)
-
-vect = CountVectorizer(ngram_range=(2,3), max_features = 5000)
+vect = TfidfVectorizer(max_features=5000)
 vect.fit(X)
+
+# vect = CountVectorizer(ngram_range=(2,3), max_features = 5000)
+# vect.fit(X)
 
 Encoder = LabelEncoder()
 
