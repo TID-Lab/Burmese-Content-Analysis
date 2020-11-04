@@ -4,92 +4,92 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.96      1.00      0.98      1090
-           1       0.00      0.00      0.00        40
+           0       0.95      1.00      0.98      1078
+           1       0.00      0.00      0.00        52
 
-    accuracy                           0.96      1130
+    accuracy                           0.95      1130
    macro avg       0.48      0.50      0.49      1130
-weighted avg       0.93      0.96      0.95      1130
+weighted avg       0.91      0.95      0.93      1130
 
 After oversampling: Counter({0: 5424, 1: 800})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.88      1.00      0.94      1084
-           1       1.00      0.07      0.13       161
+           0       0.87      1.00      0.93      1071
+           1       1.00      0.09      0.16       174
 
-    accuracy                           0.88      1245
-   macro avg       0.94      0.53      0.53      1245
-weighted avg       0.89      0.88      0.83      1245
+    accuracy                           0.87      1245
+   macro avg       0.94      0.54      0.54      1245
+weighted avg       0.89      0.87      0.82      1245
 
 After oversampling: Counter({0: 5424, 1: 1378})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.82      1.00      0.90      1082
-           1       0.98      0.15      0.27       279
+           0       0.79      1.00      0.89      1069
+           1       0.94      0.05      0.10       292
 
-    accuracy                           0.83      1361
-   macro avg       0.90      0.58      0.58      1361
-weighted avg       0.85      0.83      0.77      1361
+    accuracy                           0.80      1361
+   macro avg       0.87      0.53      0.49      1361
+weighted avg       0.83      0.80      0.72      1361
 
 After oversampling: Counter({0: 5424, 1: 1956})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.88      0.92      0.90      1061
-           1       0.76      0.68      0.72       415
+           0       0.88      0.90      0.89      1094
+           1       0.69      0.64      0.66       382
 
-    accuracy                           0.85      1476
-   macro avg       0.82      0.80      0.81      1476
-weighted avg       0.85      0.85      0.85      1476
+    accuracy                           0.83      1476
+   macro avg       0.78      0.77      0.77      1476
+weighted avg       0.83      0.83      0.83      1476
 
 After oversampling: Counter({0: 5424, 1: 2534})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.88      0.91      0.89      1077
-           1       0.79      0.73      0.76       515
+           0       0.88      0.89      0.89      1120
+           1       0.74      0.72      0.73       472
 
-    accuracy                           0.85      1592
-   macro avg       0.83      0.82      0.82      1592
-weighted avg       0.85      0.85      0.85      1592
+    accuracy                           0.84      1592
+   macro avg       0.81      0.81      0.81      1592
+weighted avg       0.84      0.84      0.84      1592
 
 After oversampling: Counter({0: 5424, 1: 3112})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.92      0.87      0.89      1106
-           1       0.79      0.86      0.82       602
+           0       0.87      0.87      0.87      1073
+           1       0.78      0.78      0.78       635
 
-    accuracy                           0.87      1708
-   macro avg       0.85      0.86      0.86      1708
-weighted avg       0.87      0.87      0.87      1708
+    accuracy                           0.83      1708
+   macro avg       0.82      0.82      0.82      1708
+weighted avg       0.83      0.83      0.83      1708
 
 After oversampling: Counter({0: 5424, 1: 3690})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.91      0.87      0.89      1099
-           1       0.82      0.87      0.84       724
+           0       0.87      0.86      0.87      1092
+           1       0.80      0.81      0.80       731
 
-    accuracy                           0.87      1823
-   macro avg       0.86      0.87      0.87      1823
-weighted avg       0.87      0.87      0.87      1823
+    accuracy                           0.84      1823
+   macro avg       0.83      0.84      0.84      1823
+weighted avg       0.84      0.84      0.84      1823
 
 After oversampling: Counter({0: 5424, 1: 4268})
 classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.90      0.86      0.88      1084
-           1       0.83      0.88      0.86       855
+           0       0.90      0.86      0.88      1082
+           1       0.84      0.88      0.86       857
 
     accuracy                           0.87      1939
    macro avg       0.87      0.87      0.87      1939
@@ -100,8 +100,8 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.89      0.83      0.86      1099
-           1       0.82      0.89      0.85       955
+           0       0.88      0.84      0.86      1080
+           1       0.84      0.88      0.86       974
 
     accuracy                           0.86      2054
    macro avg       0.86      0.86      0.86      2054
@@ -112,10 +112,10 @@ classifier: SVMClf
 
               precision    recall  f1-score   support
 
-           0       0.90      0.83      0.86      1057
-           1       0.85      0.91      0.88      1113
+           0       0.89      0.81      0.85      1101
+           1       0.82      0.90      0.86      1069
 
-    accuracy                           0.87      2170
-   macro avg       0.88      0.87      0.87      2170
-weighted avg       0.87      0.87      0.87      2170
+    accuracy                           0.85      2170
+   macro avg       0.86      0.86      0.85      2170
+weighted avg       0.86      0.85      0.85      2170
 

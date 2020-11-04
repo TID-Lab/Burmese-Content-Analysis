@@ -54,7 +54,7 @@ models = {
     "EasyEnsembleClf": EasyEnsembleClassifier(n_estimators=10),
     "BalancedRFClf": BalancedRandomForestClassifier(n_estimators=100,max_depth=20),
     "BaggingClf"   : BaggingClassifier(base_estimator=DecisionTreeClassifier(max_depth=10),n_estimators=50),
-    "SVMClf"        : svm.SVC(C=1, gamma=0.1),
+    "SVMClf"        : svm.SVC(C=1, gamma=0.1, probability=True),
     "MNBClf"        : naive_bayes.MultinomialNB(alpha=0.1),
     "XGBoostClf"    : xgb.XGBClassifier(learning_rate=0.0001, max_depth = 20, n_estimators = 100, scale_pos_weight=20)
 }
@@ -66,14 +66,16 @@ for minority_class_size in resampled_minority_class_sizes:
     print("After oversampling: " + str(y_counter))
     X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, train_size=0.80,test_size=0.20)
 
-    clf_name = "BalancedRFClf"
+    clf_name = "SVMClf"
     clf = models[clf_name]
     clf.fit(X_train, y_train)
     prds = clf.predict(X_test)
-    # with open("model-data/svm/y_pred.json", "w") as y_pred_f:
-    #     json.dump(prds.tolist(), y_pred_f)
-    # with open("model-data/svm/y_test.json", "w") as y_test_f:
-    #     json.dump(y_test.tolist(), y_test_f)
+    with open("model-data/svm/y_test_prob.json", "w") as y_test_prob:
+        json.dump(clf.predict_proba(X_test).tolist(), y_test_prob)
+    with open("model-data/svm/y_pred.json", "w") as y_pred_f:
+        json.dump(prds.tolist(), y_pred_f)
+    with open("model-data/svm/y_test.json", "w") as y_test_f:
+        json.dump(y_test.tolist(), y_test_f)
     metrics = print_metrics(clf_name, y_test, prds)
     precisions.append(metrics["1"]["precision"])
     recalls.append(metrics["1"]["recall"])
