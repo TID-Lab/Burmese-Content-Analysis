@@ -19,3 +19,6 @@ data-collection/data/oscar_raw
 data-collection/data/wiki_dump
 data-collection/text/code/temp.py
 venv/
+myanmar-2020-election-analysis/secrets.json
+myanmar-2020-election-analysis/processed_reports.backup.json
+myanmar-2020-election-analysis/processed_reports.json
